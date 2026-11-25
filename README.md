@@ -35,3 +35,11 @@ frase que cambia al final para pedir comentarios. Unos 15 segundos. La música s
     node herramientas/foto.js marcas/tirayafloja/plantilla-reel-gancho.html a.png 1080 1920 '{"gancho":"...","nombre":"...","linea":"Mira hasta el final."}'
     node herramientas/foto.js marcas/tirayafloja/plantilla-reel-gancho.html b.png 1080 1920 '{"gancho":"...","nombre":"...","linea":"¿Ha ganado el tuyo? Dinos tu color en comentarios."}'
     ESCALA=1016:635 POS=32:700 herramientas/reel-gancho.sh a.png b.png marcas/tirayafloja/partidas/camellos.mp4 0.4 34.6 36.4 2.6 reel.mp4
+
+## Reel con vídeos de partidas reales
+
+Para vídeos grabados en clase o en casa: cada trozo recortado a la pantalla del juego (que no salgan caras ni la barra
+del navegador), con su pregunta arriba y el nombre del juego, y una escena final con el logo. Fondo de cada escena con
+plantilla-reel-clase.html ("video":[x,y,ancho,alto] marca el hueco) y cada escena con ffmpeg: trim, setpts para
+acelerar, crop, scale al hueco y overlay sobre el fondo; las escenas, con los mismos ajustes, se unen con el concat de
+ffmpeg y -c copy. Los vídeos originales no se suben al repositorio. Ejemplo: publicaciones/2026-11-29-tirayafloja-reel-partidas-reales.
