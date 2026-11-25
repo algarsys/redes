@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<!-- Sorteo, carrusel 1080x1350. pinta({"tipo":"premio"}) o pinta({"tipo":"pasos"}) -->
+<style>
+@font-face{font-family:'Baloo 2';font-weight:600;src:url('fuentes/baloo2-latin-600.woff2') format('woff2')}
+@font-face{font-family:'Baloo 2';font-weight:700;src:url('fuentes/baloo2-latin-700.woff2') format('woff2')}
+@font-face{font-family:'Baloo 2';font-weight:800;src:url('fuentes/baloo2-latin-800.woff2') format('woff2')}
+:root{--tinta:#1D2B3A;--azul:#2E7BF6;--rosa:#E0329E;--amarillo:#FFD23F;--verde:#2FA84F;--gris:#4A5B6C}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1350px;overflow:hidden}
+body{font-family:'Baloo 2','Trebuchet MS',Arial,sans-serif;color:var(--tinta);-webkit-font-smoothing:antialiased;position:relative;padding:60px 70px 0}
+.marca{display:flex;align-items:center;gap:20px;font-weight:700;font-size:40px}
+.marca svg{width:110px;height:110px;flex:none}
+.marca .desl{margin-left:auto;display:flex;align-items:center;gap:6px;font-weight:800;font-size:30px}
+.marca .desl svg{width:40px;height:40px}
+.etq{display:inline-block;margin-top:38px;padding:8px 26px 4px;border-radius:999px;font-weight:800;font-size:34px;color:#fff;background:var(--rosa)}
+h1{margin-top:14px;font-weight:800;font-size:112px;line-height:.95;letter-spacing:-1.5px}
+.sub{margin-top:22px;font-weight:600;font-size:40px;line-height:1.22;color:var(--gris);max-width:900px}
+/* premio */
+.premio{background:#EAF6FF}
+.boleto{position:absolute;left:70px;right:70px;bottom:150px;height:420px;border-radius:36px;background:var(--azul);color:#fff;display:flex;align-items:center;gap:44px;padding:0 60px;box-shadow:0 24px 60px rgba(29,43,58,.22)}
+.boleto::before,.boleto::after{content:'';position:absolute;top:50%;width:64px;height:64px;margin-top:-32px;border-radius:50%;background:#EAF6FF}
+.boleto::before{left:-32px}.boleto::after{right:-32px}
+.boleto .diez{flex:none;font-weight:800;font-size:300px;line-height:1;margin-top:40px;color:var(--amarillo)}
+.boleto .txt{border-left:5px dashed rgba(255,255,255,.55);padding-left:44px;font-weight:800;font-size:54px;line-height:1.05}
+.boleto .txt span{display:block;margin-top:14px;font-weight:600;font-size:34px;line-height:1.2;color:#DCEBFF}
+.fecha{position:absolute;left:70px;bottom:50px;}
+.pasos .fecha{bottom:132px}
+.fecha{padding:12px 34px 7px;border-radius:999px;background:var(--amarillo);font-weight:800;font-size:40px}
+/* pasos */
+.pasos{background:#FFF4D6}
+.pasos h1{font-size:110px;margin-top:56px}
+.lista{margin-top:48px;display:flex;flex-direction:column;gap:28px}
+.lista div{display:flex;align-items:center;gap:30px;background:#fff;border-radius:28px;padding:36px 36px 30px;box-shadow:0 5px 0 rgba(29,43,58,.10);font-weight:800;font-size:48px;line-height:1.1}
+.lista b{flex:none;width:112px;height:112px;border-radius:30px;color:#fff;font-size:74px;line-height:126px;text-align:center}
+.lista small{display:block;font-weight:600;font-size:34px;color:var(--gris);margin-top:4px}
+.nota{margin-top:36px;font-weight:600;font-size:36px;line-height:1.25;color:var(--gris)}
+.letra{position:absolute;left:70px;right:70px;bottom:46px;font-weight:600;font-size:25px;line-height:1.3;color:var(--gris)}
+.oculto{display:none !important}
+</style></head>
+<body>
+<div class="marca"><svg viewBox="0 0 512 512"><path d="M0 110a110 110 0 0 1 110-110h146v512H110A110 110 0 0 1 0 402Z" fill="#2E7BF6"/><path d="M256 0h146a110 110 0 0 1 110 110v292a110 110 0 0 1-110 110H256Z" fill="#E0329E"/><path d="M127 174v164M45 256h164" stroke="#fff" stroke-width="43" stroke-linecap="round"/><path d="M328 197 L440 315 M440 197 L328 315" stroke="#fff" stroke-width="43" stroke-linecap="round"/></svg>tirayafloja.com<span class="desl oculto" id="desl">Desliza <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+<div id="cuerpo"></div>
+<script>
+window.pinta = function (d) {
+  var c = document.getElementById('cuerpo');
+  document.body.className = d.tipo;
+  if (d.tipo === 'premio') {
+    document.getElementById('desl').classList.remove('oculto');
+    c.innerHTML = '<span class="etq">Sorteo</span><h1>Regalamos 10 cuentas para siempre</h1>' +
+      '<p class="sub">Para tu clase o para casa: los 100 juegos sin límite de partidas, en la pizarra, el ordenador o la tablet.</p>' +
+      '<div class="boleto"><div class="diez">10</div><div class="txt">accesos ilimitados<span>Como la cuenta de 9,99 €, pago único. Sin cuotas.</span></div></div>' +
+      '<span class="fecha">Hasta el 14 de diciembre</span>';
+  } else {
+    c.innerHTML = '<h1>Cómo participar</h1><div class="lista">' +
+      '<div><b style="background:#2E7BF6">1</b><span>Sigue a la cuenta<small>@tirayafloja_retoseducativos</small></span></div>' +
+      '<div><b style="background:#E0329E">2</b><span>Dale a me gusta<small>a esta publicación</small></span></div>' +
+      '<div><b style="background:#2FA84F">3</b><span>Comenta y menciona<small>a un profe o a una familia</small></span></div>' +
+      '</div><p class="nota">Cada persona distinta que menciones es una participación más, hasta 5.</p>' +
+      '<span class="fecha">Sorteo: 15 de diciembre</span>' +
+      '<p class="letra">Mayores de 18 años residentes en España. Bases completas en tirayafloja.com/sorteo.html. Instagram no patrocina, avala ni administra este sorteo.</p>';
+  }
+};
+</script>
+</body></html>
