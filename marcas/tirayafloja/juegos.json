@@ -1,0 +1,1438 @@
+[
+ {
+  "id": "tira-y-afloja",
+  "nombre": "Tira y afloja",
+  "desc": "Dos equipos resuelven operaciones a la vez. Cada acierto tira de la cuerda hacia su lado.",
+  "area": "math",
+  "etapas": [
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Sumas",
+   "Restas",
+   "Tablas"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/tira-y-afloja.html"
+ },
+ {
+  "id": "trazos",
+  "nombre": "Trazos de letras y números",
+  "desc": "Sigue el punto verde y la flecha para escribir cada letra en su pauta, trazo a trazo y en el orden correcto. Por equipos, cada uno traza la misma letra en su mitad; o solo, para practicar.",
+  "area": "lang",
+  "etapas": [
+   "infantil",
+   "primaria1"
+  ],
+  "temas": [
+   "Grafomotricidad",
+   "Lectoescritura"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/trazos.html"
+ },
+ {
+  "id": "letras",
+  "nombre": "El caldero de las letras",
+  "desc": "Sale una letra en el caldero y hay que meter dentro las burbujas que la llevan, en mayúscula y en minúscula. Se tocan o se arrastran con el dedo. Vocales, primeras letras o todo el abecedario, en letra de imprenta o ligada.",
+  "area": "lang",
+  "etapas": [
+   "infantil"
+  ],
+  "temas": [
+   "Lectoescritura",
+   "Mayúsculas y minúsculas",
+   "Letras"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/letras.html"
+ },
+ {
+  "id": "parejas",
+  "nombre": "Parejas",
+  "desc": "El memory de toda la vida: dibujos, dibujo y palabra, número y cantidad, o español e inglés.",
+  "area": "world",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Memoria",
+   "Vocabulario"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/parejas.html"
+ },
+ {
+  "id": "memoria",
+  "nombre": "Memoria por equipos",
+  "desc": "Se encienden casillas en orden y los dos equipos las repiten a la vez. Cada ronda acertada añade una casilla más.",
+  "area": "world",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2"
+  ],
+  "temas": [
+   "Memoria",
+   "Atención"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/memoria.html"
+ },
+ {
+  "id": "robot",
+  "nombre": "El robot perdido",
+  "desc": "Seis retos en el mismo tablero: llegar a la estrella, esquivar obstáculos, usar repeticiones, recoger tuercas, hacerlo con las instrucciones justas y arreglar un programa que falla.",
+  "area": "world",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Programación",
+   "Bucles",
+   "Depuración",
+   "Optimización"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/robot.html"
+ },
+ {
+  "id": "colores",
+  "nombre": "El robot de colores",
+  "desc": "No entiende palabras, solo colores: rojo gira a la derecha y amarillo a la izquierda. Se colocan losetas para que llegue a la estrella. Sin leer nada, desde Infantil.",
+  "area": "world",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Programación",
+   "Orientación espacial"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/colores.html"
+ },
+ {
+  "id": "serpiente",
+  "nombre": "Serpiente robot",
+  "desc": "Los dos robots andan solos dejando rastro y cada equipo gira con sus dos botones. Pierde quien choca. Recoge tuercas para puntuar.",
+  "area": "world",
+  "etapas": [
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Reflejos",
+   "Orientación espacial"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/serpiente.html"
+ },
+ {
+  "id": "raya",
+  "nombre": "Tres en raya",
+  "desc": "El de toda la vida, en grande y por turnos: gana quien ponga tres en línea. En Yo solo salen retos: encontrar la casilla que gana la partida.",
+  "area": "trad",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Estrategia",
+   "Atención"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/raya.html"
+ },
+ {
+  "id": "conecta4",
+  "nombre": "Conecta 4",
+  "desc": "El clásico por turnos: se toca una columna y la ficha cae. Gana quien junte cuatro en línea. En Yo solo salen retos: encontrar la columna que gana.",
+  "area": "trad",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Estrategia",
+   "Atención"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/conecta4.html"
+ },
+ {
+  "id": "flota",
+  "nombre": "Hundir la flota",
+  "desc": "Cada equipo tiene su mar con los barcos escondidos, colocados al azar. Si das, repites; si es agua, cambia el turno. Gana quien hunda antes la flota rival.",
+  "area": "trad",
+  "etapas": [
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Coordenadas",
+   "Estrategia"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/flota.html"
+ },
+ {
+  "id": "cajas",
+  "nombre": "Puntos y cajas",
+  "desc": "Se toca una raya entre dos puntos por turnos. Quien cierra el cuarto lado se queda la caja y vuelve a tirar. Gana quien tenga más cajas.",
+  "area": "trad",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Estrategia",
+   "Atención"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/cajas.html"
+ },
+ {
+  "id": "escaleras",
+  "nombre": "Serpientes y escaleras",
+  "desc": "Cada equipo lleva dos fichas y decide cuál mueve. Escaleras que suben, serpientes que bajan, y si caes sobre el rival lo mandas a la salida. Con un seis se repite tirada.",
+  "area": "trad",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Dado",
+   "Números",
+   "Azar"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/escaleras.html"
+ },
+ {
+  "id": "damas",
+  "nombre": "Damas",
+  "desc": "Se toca la ficha y la casilla verde a la que va; las rojas son comidas. Al llegar al fondo se corona. En Yo solo salen retos: encontrar la comida escondida.",
+  "area": "trad",
+  "etapas": [
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Estrategia",
+   "Anticipación"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/damas.html"
+ },
+ {
+  "id": "ajedrez",
+  "nombre": "Primeros pasos de ajedrez",
+  "desc": "Iniciación al ajedrez con retos cortos: cada pieza se presenta sola y se aprende cómo se mueve llegando a la estrella y recogiendo estrellas con las menos jugadas. Después, comer sin que te coman, coronar el peón y dar jaque mate en una jugada.",
+  "area": "trad",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Ajedrez",
+   "Estrategia",
+   "Orientación espacial"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/ajedrez.html"
+ },
+ {
+  "id": "gigante",
+  "nombre": "Tres en raya gigante",
+  "desc": "Nueve tableros dentro de uno: la casilla que tocas decide en qué tablero juega el otro equipo. Gana quien haga tres tableros en línea.",
+  "area": "trad",
+  "etapas": [
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Estrategia",
+   "Anticipación"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/gigante.html"
+ },
+ {
+  "id": "camellos",
+  "nombre": "Carrera de camellos",
+  "desc": "Como en la feria: cada acierto da derecho a lanzar la bola al agujero de 1, 2 o 3. Gana el primer camello en cruzar la meta.",
+  "area": "math",
+  "etapas": [
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Sumas",
+   "Restas",
+   "Tablas"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/camellos.html"
+ },
+ {
+  "id": "globos",
+  "nombre": "Carrera de globos",
+  "desc": "Cuenta los dibujos y toca el número. Cada acierto sube el globo del equipo. Sin textos, no hace falta saber leer.",
+  "area": "math",
+  "etapas": [
+   "infantil",
+   "primaria1"
+  ],
+  "temas": [
+   "Contar",
+   "Sumas hasta 10"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/globos.html"
+ },
+ {
+  "id": "torre",
+  "nombre": "Torre de bloques",
+  "desc": "Cada acierto coloca un bloque y cada fallo tira uno. Gana la primera torre que llega a la meta.",
+  "area": "math",
+  "etapas": [
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Cálculo mental"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/torre.html"
+ },
+ {
+  "id": "colorea",
+  "nombre": "Colorea por código",
+  "desc": "Se tocan solo las casillas que cumplen la consigna y aparece el dibujo escondido. Ocho variantes: un número, cuentas, pares, tablas, lengua, inglés, medidas y fracciones.",
+  "area": "arte",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Representaciones",
+   "Cálculo",
+   "Lengua",
+   "Inglés"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/colorea.html"
+ },
+ {
+  "id": "penaltis",
+  "nombre": "Penaltis",
+  "desc": "Cada equipo en su portería y a su ritmo. Retos variados del curso (series, problemas, medidas, fracciones, tiempo, dinero) para ganarse el tiro, y luego apuntar con la diana contra el portero.",
+  "area": "math",
+  "etapas": [
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Problemas",
+   "Medidas",
+   "Fracciones",
+   "Series"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/penaltis.html"
+ },
+ {
+  "id": "tres-en-raya",
+  "nombre": "Tres en raya matemático",
+  "desc": "Cada casilla esconde una operación. Si el equipo la resuelve, se queda con la casilla. Gana quien haga tres en raya.",
+  "area": "math",
+  "etapas": [
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Estrategia",
+   "Cálculo mental"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/tres-en-raya.html"
+ },
+ {
+  "id": "conquista",
+  "nombre": "Conquista de casillas",
+  "desc": "Tablero grande de operaciones. Cada equipo pinta de su color las que acierta y gana quien más tenga.",
+  "area": "math",
+  "etapas": [
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Cálculo mental"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/conquista.html"
+ },
+ {
+  "id": "formas",
+  "nombre": "Caza de formas y colores",
+  "desc": "Sale un modelo y hay que tocar todas las figuras que coinciden antes de que se acabe el tiempo del turno.",
+  "area": "world",
+  "etapas": [
+   "infantil",
+   "primaria1"
+  ],
+  "temas": [
+   "Formas",
+   "Colores",
+   "Atención"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/formas.html"
+ },
+ {
+  "id": "silabas",
+  "nombre": "Sílabas saltarinas",
+  "desc": "Sale un dibujo y las sílabas desordenadas. Cada equipo las toca en su mitad hasta formar la palabra.",
+  "area": "lang",
+  "etapas": [
+   "infantil",
+   "primaria1"
+  ],
+  "temas": [
+   "Lectoescritura",
+   "Sílabas directas"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/silabas.html"
+ },
+ {
+  "id": "lectura",
+  "nombre": "Leer y entender",
+  "desc": "Un texto corto y preguntas para los dos equipos a la vez. Se responde tocando el dibujo o la palabra correcta.",
+  "area": "lang",
+  "etapas": [
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Comprensión lectora"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/lectura.html"
+ },
+ {
+  "id": "caligrafia",
+  "nombre": "Caligrafía",
+  "desc": "Sale una frase en letra ligada y se escribe en una pauta de cuaderno con el dedo o el lápiz de la pizarra. El juego pone nota a la letra: si sigue el modelo sin salirse, si se apoya en la línea, si tiene el tamaño de la pauta y si separa las palabras. Por equipos, gana la letra más cuidada.",
+  "area": "lang",
+  "etapas": [
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Caligrafía",
+   "Escritura"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/caligrafia.html"
+ },
+ {
+  "id": "ortografia",
+  "nombre": "Duelo de ortografía",
+  "desc": "Cada ronda cambia: elegir la palabra bien escrita, completar la letra que falta o cazar el error de una frase. Más de 200 palabras, con la regla de cada curso.",
+  "area": "lang",
+  "etapas": [
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Ortografía",
+   "Mayúsculas",
+   "B y V",
+   "Tildes"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/ortografia.html"
+ },
+ {
+  "id": "cajafuerte",
+  "nombre": "La caja fuerte del verbo",
+  "desc": "Sale una frase con un verbo marcado y, para abrir la caja fuerte, hay que girar sus ruedas hasta la persona, el número, el tiempo y el modo de ese verbo. Dentro está su análisis completo. De 3º a 6º, con tiempos compuestos, subjuntivo e imperativo.",
+  "area": "lang",
+  "etapas": [
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Gramática",
+   "El verbo"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/cajafuerte.html"
+ },
+ {
+  "id": "maquinatiempo",
+  "nombre": "La máquina del tiempo",
+  "desc": "Una frase en presente viaja al pasado, al futuro o a un deseo, y hay que elegir el verbo que encaja: corrió, corría, ha corrido, correría... Por niveles, del pasado y el futuro de 3.º al subjuntivo de 6.º.",
+  "area": "lang",
+  "etapas": [
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Gramática",
+   "Tiempos verbales",
+   "El verbo"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/maquinatiempo.html"
+ },
+ {
+  "id": "cortafrase",
+  "nombre": "Corta la frase",
+  "desc": "La frase sale como una tira de papel y hay que cortarla con las tijeras justo entre el sujeto y el predicado. Por niveles: núcleos, sujeto en medio o detrás, sujeto omitido, predicado nominal y verbal y complementos.",
+  "area": "lang",
+  "etapas": [
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Gramática",
+   "Sujeto y predicado",
+   "Complementos"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/cortafrase.html"
+ },
+ {
+  "id": "vasos",
+  "nombre": "Los vasos",
+  "desc": "Sale una carta diciendo d\\u00f3nde va el vaso de color. Tocas un vaso y una casilla, y cambian de sitio. Gana quien lo coloque antes.",
+  "area": "world",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Atenci\\u00f3n",
+   "Rapidez"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/vasos.html"
+ },
+ {
+  "id": "cubo",
+  "nombre": "El cubo de colores",
+  "desc": "Sale un dibujo de colores arriba y hay que copiarlo deslizando las fichas por el hueco libre, como el cubo de juguete.",
+  "area": "world",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "L\\u00f3gica",
+   "Colores"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/cubo.html"
+ },
+ {
+  "id": "taquin",
+  "nombre": "El taqu\\u00edn",
+  "desc": "Fichas y un hueco libre: tocas la de al lado y se desliza. Hay que llevar la ficha amarilla a su casilla, o dejar todo en orden.",
+  "area": "world",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "L\\u00f3gica",
+   "Orientaci\\u00f3n"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/taquin.html"
+ },
+ {
+  "id": "torres",
+  "nombre": "Torres de colores",
+  "desc": "Deja cada columna de un solo color moviendo la ficha de arriba. Los dos equipos empiezan con el mismo tablero: gana quien lo ordene antes.",
+  "area": "world",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "L\\u00f3gica",
+   "Colores"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/torres.html"
+ },
+ {
+  "id": "frases",
+  "nombre": "Sentence Builder",
+  "desc": "Para empezar sin saber inglés: se oye una palabra o una frase y se toca el dibujo. Después, cada equipo monta la frase con tarjetas de colores: quién, qué hace, qué y dónde.",
+  "area": "eng",
+  "etapas": [
+   "infantil",
+   "primaria1"
+  ],
+  "temas": [
+   "Inglés",
+   "Frases",
+   "Colourful Semantics"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/frases.html"
+ },
+ {
+  "id": "iam",
+  "nombre": "I am, you are",
+  "desc": "Los pronombres y el verbo to be jugando: se oye She is happy y se toca el dibujo. Después cada equipo monta frases como I am happy, they can swim o he likes apples.",
+  "area": "eng",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2"
+  ],
+  "temas": [
+   "Inglés",
+   "Pronombres",
+   "To be"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/iam.html"
+ },
+ {
+  "id": "phonics",
+  "nombre": "Phonics",
+  "desc": "Leer en inglés por sonidos, como en los colegios ingleses: con qué sonido empieza cada palabra, leer palabras como c-a-t juntando sus sonidos y escribirlas con letras.",
+  "area": "eng",
+  "etapas": [
+   "infantil",
+   "primaria1"
+  ],
+  "temas": [
+   "Inglés"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/phonics.html"
+ },
+ {
+  "id": "inonunder",
+  "nombre": "In, on, under",
+  "desc": "Dónde está cada cosa: se oye The cat is under the table y se toca el dibujo. Después se monta la frase con tarjetas de colores. In, on, under, next to, behind e in front of.",
+  "area": "eng",
+  "etapas": [
+   "infantil",
+   "primaria1"
+  ],
+  "temas": [
+   "Inglés"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/inonunder.html"
+ },
+ {
+  "id": "preguntas",
+  "nombre": "Ask and answer",
+  "desc": "La voz pregunta sobre un dibujo y cada equipo toca la respuesta buena: Is it a dog? Yes, it is. What colour is it? It's red. How many ducks? Three.",
+  "area": "eng",
+  "etapas": [
+   "infantil",
+   "primaria1"
+  ],
+  "temas": [
+   "Inglés"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/preguntas.html"
+ },
+ {
+  "id": "simon",
+  "nombre": "Simon says",
+  "desc": "Para moverse en clase: la voz da una orden en inglés y todos la hacen. Si no dice Simon says delante, el que se mueve falla. La maestra da los puntos.",
+  "area": "eng",
+  "etapas": [
+   "infantil",
+   "primaria1"
+  ],
+  "temas": [
+   "Inglés"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/simon.html"
+ },
+ {
+  "id": "imita",
+  "nombre": "Copy my moves",
+  "desc": "Para aprender inglés moviéndose: al ritmo de la música, el niño hace una serie de acciones que la voz dice en inglés y la clase las copia. Luego cada equipo toca los dibujos en el mismo orden.",
+  "area": "eng",
+  "etapas": [
+   "infantil",
+   "primaria1"
+  ],
+  "temas": [
+   "Inglés"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/imita.html"
+ },
+ {
+  "id": "spelling",
+  "nombre": "Spelling bee",
+  "desc": "El concurso de deletrear de los colegios ingleses: la voz dice la palabra y una frase, y los dos equipos la escriben a la vez con letras. De cat a because.",
+  "area": "eng",
+  "etapas": [
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Inglés"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/spelling.html"
+ },
+ {
+  "id": "tiempos",
+  "nombre": "Past, present, future",
+  "desc": "Los tiempos verbales en inglés con tarjetas de colores: el cartel del dibujo dice cuándo pasa y hay que elegir plays, played, is playing o is going to play.",
+  "area": "eng",
+  "etapas": [
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Inglés"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/tiempos.html"
+ },
+ {
+  "id": "blending",
+  "nombre": "Blending road",
+  "desc": "Leer por sonidos: se lleva el coche por la carretera, cada letra se enciende al pasar y al final se abre el garaje con el dibujo.",
+  "area": "eng",
+  "etapas": [
+   "infantil",
+   "primaria1"
+  ],
+  "temas": [
+   "Inglés"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/blending.html"
+ },
+ {
+  "id": "spellroad",
+  "nombre": "Spelling road",
+  "desc": "Escribir por sonidos: se dibuja con el dedo el camino del coche por las letras, en orden, hasta la meta. Si pisa una que no va, vuelta a empezar.",
+  "area": "eng",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2"
+  ],
+  "temas": [
+   "Inglés"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/spellroad.html"
+ },
+ {
+  "id": "linterna",
+  "nombre": "Torch hunt",
+  "desc": "Todo a oscuras: con el dedo se mueve la linterna y van apareciendo los dibujos. Hay que encontrar el de la palabra que se lee o se oye.",
+  "area": "eng",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2"
+  ],
+  "temas": [
+   "Inglés"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/linterna.html"
+ },
+ {
+  "id": "aspiradora",
+  "nombre": "Ghost vacuum",
+  "desc": "Unos fantasmas llevan palabras o dibujos: se oye o se ve la palabra en inglés y hay que tocar el fantasma que la lleva para que la aspiradora lo absorba.",
+  "area": "eng",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2"
+  ],
+  "temas": [
+   "Inglés"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/aspiradora.html"
+ },
+ {
+  "id": "escucha",
+  "nombre": "Listen and match",
+  "desc": "Altavoces a la izquierda y palabras o dibujos a la derecha: se oye la palabra en inglés y se traza la línea hasta la suya. Por turnos.",
+  "area": "eng",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2"
+  ],
+  "temas": [
+   "Inglés"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/escucha.html"
+ },
+ {
+  "id": "ahorcado",
+  "nombre": "El ahorcado del globo",
+  "desc": "Palabra escondida con su pista. Cada letra fallada baja el globo; si toca el suelo, se acab\\u00f3 esa palabra.",
+  "area": "lang",
+  "etapas": [
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Vocabulario",
+   "Letras"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/ahorcado.html"
+ },
+ {
+  "id": "cuantos",
+  "nombre": "\\u00bfCu\\u00e1ntos hay?",
+  "desc": "Sale una cantidad dibujada de formas distintas: en un marco de diez, con dedos, con dados o con palotes. Cada equipo pulsa el n\\u00famero en su mitad y gana el que llegue antes a la meta.",
+  "area": "math",
+  "etapas": [
+   "infantil",
+   "primaria1"
+  ],
+  "temas": [
+   "Contar",
+   "N\\u00fameros"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/cuantos.html"
+ },
+ {
+  "id": "partes",
+  "nombre": "Las dos partes",
+  "desc": "Una barra entera se parte en dos trozos. Se ve uno y hay que averiguar el otro, completando la operaci\\u00f3n. Unas veces se pregunta sumando y otras restando: es lo mismo visto del derecho y del rev\\u00e9s.",
+  "area": "math",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2"
+  ],
+  "temas": [
+   "Sumar",
+   "Restar",
+   "Descomponer"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/partes.html"
+ },
+ {
+  "id": "unepuntos",
+  "nombre": "Une los puntos",
+  "desc": "Puntos numerados que esconden un dibujo: se unen en orden tocándolos o arrastrando el dedo, y al cerrar el dibujo se colorea y cobra vida. Del 1 al 5 con números grandes hasta contar de 5 en 5 hasta el 100 con números que sobran; también hacia atrás y por letras.",
+  "area": "math",
+  "etapas": [
+   "infantil",
+   "primaria1"
+  ],
+  "temas": [
+   "Números",
+   "Contar",
+   "Series"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/unepuntos.html"
+ },
+ {
+  "id": "balanza",
+  "nombre": "La balanza",
+  "desc": "Una balanza de dos platos: el lado que baja pesa más. Se lee la balanza, se equilibra con cubos, se buscan equivalencias (si una pera pesa como dos fresas, ¿cuántas fresas pesan dos peras?) y se ordena por peso. Cinco niveles, desde Infantil.",
+  "area": "math",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Lógica",
+   "Comparar",
+   "Medida"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/balanza.html"
+ },
+ {
+  "id": "capas",
+  "nombre": "Capas de colores",
+  "desc": "Sale una figura de colores y abajo hay l\\u00e1minas transparentes. Al tocarlas se apilan: la de arriba tapa a las de abajo, as\\u00ed que hay que dar con las correctas y con el orden correcto.",
+  "area": "world",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "L\\u00f3gica",
+   "Formas"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/capas.html"
+ },
+ {
+  "id": "fantasmas",
+  "nombre": "Atrapa al fantasma",
+  "desc": "Los fantasmas van flotando por el cementerio y cada uno lleva un número. Abajo sale una cuenta y hay que tocar el fantasma que tiene el resultado antes que el otro equipo. Se elige la operación, cuántos fantasmas hay y lo rápido que vuelan.",
+  "area": "math",
+  "etapas": [
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Sumar",
+   "Restar",
+   "Multiplicar",
+   "Dividir",
+   "Cálculo mental"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/fantasmas.html"
+ },
+ {
+  "id": "cien",
+  "nombre": "El cuadro del 100",
+  "desc": "La tabla de números de toda la vida, para tocar en la pizarra. En modo libre manda el profe: se pintan números con los colores que quieras, se pueden esconder y salen consignas (“marca todos los que tienen 4 decenas”) que se comprueban solas. En modo reto juegan dos equipos, cada uno con su tabla.",
+  "area": "math",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2"
+  ],
+  "temas": [
+   "Decenas",
+   "Series",
+   "Tablas",
+   "Contar"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/cien.html"
+ },
+ {
+  "id": "burbujas",
+  "nombre": "Revienta burbujas",
+  "desc": "Arriba sale una regla —“solo los pares”, “solo los múltiplos de 3”, “solo los animales”— y las burbujas suben flotando con un número o una palabra dentro. Hay que reventar SOLO las que cumplen la regla, lanzando la pelota: se arrastra desde ella, o se toca directamente la burbuja. Acertar suma; reventar una que no vale resta. La regla cambia cada cuatro aciertos, así que no vale con aprenderse la respuesta.",
+  "area": "math",
+  "etapas": [
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Clasificar",
+   "Pares",
+   "Múltiplos",
+   "Vocabulario"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/burbujas.html"
+ },
+ {
+  "id": "dibujo",
+  "nombre": "Copia el dibujo",
+  "desc": "Sale un dibujo y cada equipo lo copia con el dedo en su pizarra. Al acabar, el juego da a cada copia de 1 a 10 estrellas, o decide la clase. Tambi\\u00e9n de memoria, o solo para dibujar.",
+  "area": "arte",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Dibujo",
+   "Atenci\\u00f3n"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/dibujo.html"
+ },
+ {
+  "id": "gatos",
+  "nombre": "Que viene el lobo",
+  "desc": "Cuando viene el lobo, cada gatito a su casa y el lobo fuera. Cuando hace sol, al rev\\u00e9s: todos al jard\\u00edn. Piezas de jard\\u00edn con casita, de formas distintas. Soluci\\u00f3n \\u00fanica.",
+  "area": "world",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "L\\u00f3gica",
+   "Espacio"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/gatos.html"
+ },
+ {
+  "id": "pinta",
+  "nombre": "Pinta como te digo",
+  "desc": "Sale una orden con voz y con dibujos, como \"pinta de rojo el globo grande\", y se pinta en la lámina eligiendo el color y tocando el dibujo. Empieza con color y dibujo y sube a tamaños, cantidades, dónde está cada cosa, izquierda y derecha, todos menos uno y primero, segundo, tercero.",
+  "area": "arte",
+  "etapas": [
+   "infantil",
+   "primaria1"
+  ],
+  "temas": [
+   "Atención",
+   "Colores",
+   "Orientación espacial"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/pinta.html"
+ },
+ {
+  "id": "casas",
+  "nombre": "¿Quién vive en cada casa?",
+  "desc": "Acertijos de lógica con dibujos: una calle de casas de colores y pistas como «el gato vive en la casa roja» o «la rana vive justo a la izquierda del pollito». Hay que poner a cada animal en su casa y comprobarlo. En los niveles altos, cada casa tiene también una fruta o un juguete.",
+  "area": "world",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Lógica",
+   "Deducción"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/casas.html"
+ },
+ {
+  "id": "sudoku",
+  "nombre": "Sudoku de dibujos",
+  "desc": "Una cuadrícula de dibujos en la que ninguno se repite en su fila ni en su columna. Se toca la casilla y el dibujo, o se arrastra. Del 3 × 3 con un hueco al 6 × 6 con cajas, con animales, frutas, colores o números.",
+  "area": "world",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Lógica",
+   "Atención"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/sudoku.html"
+ },
+ {
+  "id": "series",
+  "nombre": "¿Qué viene después?",
+  "desc": "Sale un collar con una serie y un hueco: hay que ver cómo se repite y poner la cuenta que falta, tocándola o arrastrándola. Empieza con AB y sube hasta series que crecen, flechas que giran, dos huecos o buscar la cuenta que está mal.",
+  "area": "world",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2"
+  ],
+  "temas": [
+   "Series",
+   "Lógica",
+   "Atención"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/series.html"
+ },
+ {
+  "id": "detective",
+  "nombre": "El detective",
+  "desc": "Hay que encontrar a un personaje siguiendo pistas: lleva sombrero, no tiene gafas, va de azul. Se tocan los que no cumplen la pista y se les cierra la ventana hasta que solo queda uno. En el último nivel salen todas las pistas a la vez.",
+  "area": "world",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Lógica",
+   "Atención",
+   "Deducción"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/detective.html"
+ },
+ {
+  "id": "cambiado",
+  "nombre": "¿Qué ha cambiado?",
+  "desc": "Se mira la estantería unos segundos, se cierra la cortina y algo cambia: hay que encontrar lo que falta, lo nuevo, lo que cambia de color o lo que cambia de sitio. Si se falla, se ve el antes y el ahora con el cambio marcado.",
+  "area": "world",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Memoria",
+   "Atención"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/cambiado.html"
+ },
+ {
+  "id": "tabla",
+  "nombre": "La tabla de doble entrada",
+  "desc": "Cada ficha va donde se cruzan su fila y su columna: color y forma, animal, cantidad o tamaño. Hay que colocar fichas, elegir la que va en una casilla, rellenar la tabla entera o encontrar las que están mal puestas.",
+  "area": "world",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2"
+  ],
+  "temas": [
+   "Lógica",
+   "Clasificar",
+   "Formas"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/tabla.html"
+ },
+ {
+  "id": "espejo",
+  "nombre": "El espejo",
+  "desc": "A un lado del espejo hay un dibujo y hay que pintar la otra mitad, reflejada. Se toca cada casilla o se arrastra el dedo. De uno a tres colores, con el espejo de pie, tumbado o dos espejos a la vez.",
+  "area": "world",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Simetría",
+   "Orientación espacial",
+   "Lógica"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/espejo.html"
+ },
+ {
+  "id": "siluetas",
+  "nombre": "Siluetas",
+  "desc": "Sale la sombra de una figura y abajo unas piezas de colores. Hay que llevarlas a su sitio y girarlas tocándolas hasta que encajen. Del nivel 1, con dos piezas y las líneas marcadas, al 5, con siete piezas y solo el contorno.",
+  "area": "world",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Orientación espacial",
+   "Formas",
+   "Lógica"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/siluetas.html"
+ },
+ {
+  "id": "crucigrama",
+  "nombre": "Crucigrama de cuentas",
+  "desc": "Un tablero de cuentas cruzadas con huecos: se arrastran los n\\u00fameros de abajo hasta que todas las cuentas salen bien.",
+  "area": "math",
+  "etapas": [
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Sumar",
+   "Calcular"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/crucigrama.html"
+ },
+ {
+  "id": "valor",
+  "nombre": "Centenas, decenas y unidades",
+  "desc": "Salen placas de cien, barras de diez y cubos de uno: hay que contar y encestar el bal\\u00f3n del n\\u00famero correcto.",
+  "area": "math",
+  "etapas": [
+   "primaria1",
+   "primaria2"
+  ],
+  "temas": [
+   "N\\u00fameros",
+   "Descomponer"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/valor.html"
+ },
+ {
+  "id": "secreto",
+  "nombre": "El número secreto",
+  "desc": "Muchas casillas y solo una secreta: con pistas o preguntas de sí o no (es par, es mayor que 40, es múltiplo de 5) se tapan las demás. En Infantil, con formas y colores.",
+  "area": "math",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Números"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/secreto.html"
+ },
+ {
+  "id": "comparar",
+  "nombre": "Mayor, menor o igual",
+  "desc": "Salen dos n\\u00fameros y hay que disparar a la diana del signo correcto. Tambi\\u00e9n con sumas y restas en los dos lados.",
+  "area": "math",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2"
+  ],
+  "temas": [
+   "Comparar",
+   "N\\u00fameros"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/comparar.html"
+ },
+ {
+  "id": "match",
+  "nombre": "Parejas que suman 10",
+  "desc": "Toca dos n\\u00fameros iguales o que sumen 10 y revientan. El tablero se va vaciando y gana quien lo limpie antes.",
+  "area": "math",
+  "etapas": [
+   "infantil",
+   "primaria1"
+  ],
+  "temas": [
+   "Sumar",
+   "Atenci\\u00f3n"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/match.html"
+ },
+ {
+  "id": "reloj",
+  "nombre": "El reloj",
+  "desc": "Dos retos: leer la hora del reloj y elegir la respuesta, o mover las agujas con el dedo hasta poner la hora que se pide.",
+  "area": "math",
+  "etapas": [
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "La hora",
+   "Medida"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/reloj.html"
+ },
+ {
+  "id": "cubos",
+  "nombre": "Construye con cubos",
+  "desc": "Cubos para construir en la pizarra: modo libre con sus vistas, y retos por equipos para copiar figuras, contar cubos (también los que no se ven) y elegir lo que ve el ojo.",
+  "area": "math",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Orientación espacial",
+   "Contar",
+   "Medida"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/cubos.html"
+ },
+ {
+  "id": "dibujaformas",
+  "nombre": "Dibuja formas",
+  "desc": "Se dibuja con el dedo y el juego reconoce la forma: círculo, cuadrado, triángulo, rombo, hexágono... y le da de 1 a 10 estrellas. Si sale otra, dice cuál parece.",
+  "area": "arte",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2"
+  ],
+  "temas": [
+   "Formas",
+   "Grafomotricidad",
+   "Colores"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/dibujaformas.html"
+ },
+ {
+  "id": "ordenar",
+  "nombre": "La oruga ordena n\\u00fameros",
+  "desc": "Los n\\u00fameros son los trozos del cuerpo de una oruga: se arrastran a su sitio, del m\\u00e1s peque\\u00f1o al m\\u00e1s grande (o al rev\\u00e9s). De 3 a 10 trozos y hasta 10000.",
+  "area": "math",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "N\\u00fameros",
+   "Comparar"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/ordenar.html"
+ },
+ {
+  "id": "bloques",
+  "nombre": "Haz el n\\u00famero",
+  "desc": "Sale un n\\u00famero y hay que llenar su barra justa con regletas de colores: el 9 puede ser 6 y 3, o 5 y 4, o 4 y 4 y 1. Si tocas una regleta ya puesta, la quitas.",
+  "area": "math",
+  "etapas": [
+   "infantil",
+   "primaria1"
+  ],
+  "temas": [
+   "Sumar",
+   "Descomponer"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/bloques.html"
+ },
+ {
+  "id": "bingo",
+  "nombre": "Bingo",
+  "desc": "Sale una bola y cada equipo busca en su cart\\u00f3n. Con n\\u00fameros, formas de colores, animales o cuentas: sale 7 + 2 y marcas el 9.",
+  "area": "math",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "N\\u00fameros",
+   "Atenci\\u00f3n"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/bingo.html"
+ },
+ {
+  "id": "sopa",
+  "nombre": "Sopa de letras",
+  "desc": "Arrastra el dedo por las letras para encontrar las palabras de la lista. Por temas: animales, comida, escuela, el cuerpo o ingl\\u00e9s.",
+  "area": "lang",
+  "etapas": [
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Vocabulario",
+   "Lectura"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/sopa.html"
+ },
+ {
+  "id": "rueda",
+  "nombre": "La rueda de palabras",
+  "desc": "La rueda gira y para en una palabra: hay que decirla en ingl\\u00e9s, usarla en una frase, contar sus s\\u00edlabas o buscarle una rima.",
+  "area": "lang",
+  "etapas": [
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Vocabulario",
+   "Hablar"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/rueda.html"
+ },
+ {
+  "id": "palabras",
+  "nombre": "Ruleta de palabras",
+  "desc": "Palabra escondida con pista. Los dos equipos a la vez, cada uno con su teclado y a su ritmo: gana quien descubre antes cinco.",
+  "area": "lang",
+  "etapas": [
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Vocabulario",
+   "Ortografía"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/ruleta.html"
+ },
+ {
+  "id": "quiz",
+  "nombre": "Duelo de preguntas",
+  "desc": "Pregunta y tres respuestas, los dos equipos a la vez y a contrarreloj. Bancos de entorno, mates e inglés, y editor para meter las tuyas.",
+  "area": "world",
+  "etapas": [
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Repaso",
+   "Preguntas propias"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/quiz.html"
+ },
+ {
+  "id": "mapa",
+  "nombre": "Mapa de España",
+  "desc": "Mapa real y táctil de España: comunidades autónomas, provincias y sus capitales. Canarias en recuadro.",
+  "area": "world",
+  "etapas": [
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Geografía",
+   "Comunidades",
+   "Provincias",
+   "Capitales"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/mapa.html"
+ },
+ {
+  "id": "canciones",
+  "nombre": "Sing and dance",
+  "desc": "50 canciones en inglés, cantadas con voz británica o tradicionales en karaoke: se escuchan con la letra y los dibujos, se cantan, se bailan con la coreografía o se juega por equipos a la palabra que falta.",
+  "area": "music",
+  "etapas": [
+   "infantil",
+   "primaria1"
+  ],
+  "temas": [
+   "Inglés",
+   "Canciones",
+   "Baile"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/canciones.html"
+ },
+ {
+  "id": "ritmos",
+  "nombre": "Caja de ritmos",
+  "desc": "Ocho instrumentos de clase en pads de colores: tocar y grabar dos compases, el eco rítmico por turnos (oír un ritmo y repetirlo) y leer negras, corcheas y silencios.",
+  "area": "music",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Música",
+   "Atención",
+   "Memoria"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/ritmos.html"
+ },
+ {
+  "id": "piano",
+  "nombre": "Piano",
+  "desc": "Un piano grande con partituras sencillas por niveles: se escucha la canción y se toca nota a nota, con el nombre y el color de cada nota. Del Do-Re-Mi a Para Elisa.",
+  "area": "music",
+  "etapas": [
+   "infantil",
+   "primaria1",
+   "primaria2",
+   "primaria3"
+  ],
+  "temas": [
+   "Música",
+   "Partituras",
+   "Notas",
+   "Atención"
+  ],
+  "url": "https://www.tirayafloja.com/juegos/piano.html"
+ }
+]

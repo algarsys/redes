@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<!-- Juego de la semana, 1080x1350. Datos: {"id":"camellos","nombre":"...","desc":"...","etiqueta":"Juego de la semana","cursos":"1º a 4º de Primaria","fondo":"#FFF4D6","color":"#2E7BF6"} -->
+<style>
+@font-face{font-family:'Baloo 2';font-weight:600;src:url('fuentes/baloo2-latin-600.woff2') format('woff2')}
+@font-face{font-family:'Baloo 2';font-weight:700;src:url('fuentes/baloo2-latin-700.woff2') format('woff2')}
+@font-face{font-family:'Baloo 2';font-weight:800;src:url('fuentes/baloo2-latin-800.woff2') format('woff2')}
+:root{--tinta:#1D2B3A;--azul:#2E7BF6;--rosa:#E0329E;--amarillo:#FFD23F;--gris:#4A5B6C;--color:#2E7BF6}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1350px;overflow:hidden}
+body{font-family:'Baloo 2','Trebuchet MS',Arial,sans-serif;color:var(--tinta);background:#FFF4D6;-webkit-font-smoothing:antialiased;padding:60px 70px 0;position:relative}
+.marca{display:flex;align-items:center;gap:18px;font-weight:700;font-size:38px}
+.marca svg{width:86px;height:86px}
+.etq{display:inline-block;margin-top:36px;padding:7px 22px 3px;border-radius:999px;font-weight:800;font-size:29px;color:#fff;background:var(--color)}
+h1{margin-top:14px;font-weight:800;font-size:82px;line-height:.98;letter-spacing:-1px}
+.sub{margin-top:14px;font-weight:600;font-size:33px;line-height:1.24;color:var(--gris);max-width:930px}
+.marco{position:absolute;left:70px;right:70px;bottom:190px;background:var(--tinta);border-radius:30px;padding:16px;box-shadow:0 24px 60px rgba(29,43,58,.22)}
+.marco img{display:block;width:100%;border-radius:15px}
+.marco::after{content:'';position:absolute;left:50%;bottom:-20px;width:34%;height:14px;margin-left:-17%;border-radius:0 0 12px 12px;background:var(--amarillo)}
+.pie{position:absolute;left:70px;right:70px;bottom:62px;display:flex;align-items:center;gap:18px;font-weight:800;font-size:33px}
+.pie .cur{padding:8px 22px 4px;border-radius:999px;background:#fff;box-shadow:0 4px 0 rgba(29,43,58,.12)}
+.pie .url{margin-left:auto;color:var(--azul)}
+</style></head>
+<body>
+<div class="marca"><svg viewBox="0 0 512 512"><path d="M0 110a110 110 0 0 1 110-110h146v512H110A110 110 0 0 1 0 402Z" fill="#2E7BF6"/><path d="M256 0h146a110 110 0 0 1 110 110v292a110 110 0 0 1-110 110H256Z" fill="#E0329E"/><path d="M127 174v164M45 256h164" stroke="#fff" stroke-width="43" stroke-linecap="round"/><path d="M328 197 L440 315 M440 197 L328 315" stroke="#fff" stroke-width="43" stroke-linecap="round"/></svg>tirayafloja.com</div>
+<span class="etq" id="etq">Juego de la semana</span>
+<h1 id="nom">Carrera de camellos</h1>
+<p class="sub" id="desc"></p>
+<div class="marco"><img id="img" src="capturas/camellos.jpg" alt=""></div>
+<div class="pie"><span class="cur" id="cur">1º a 6º de Primaria</span><span class="url">5 partidas gratis</span></div>
+<script>
+window.pinta = function (d) {
+  var $ = function (i) { return document.getElementById(i); };
+  if (d.nombre) $('nom').textContent = d.nombre;
+  if (d.desc) $('desc').textContent = d.desc;
+  if (d.etiqueta) $('etq').textContent = d.etiqueta;
+  if (d.cursos) $('cur').textContent = d.cursos;
+  if (d.id) $('img').src = 'capturas/' + d.id + '.jpg';
+  if (d.fondo) document.body.style.background = d.fondo;
+  if (d.color) document.documentElement.style.setProperty('--color', d.color);
+};
+</script>
+</body></html>

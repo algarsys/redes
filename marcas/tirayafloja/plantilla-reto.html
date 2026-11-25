@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:'Baloo 2';font-weight:600;src:url('fuentes/baloo2-latin-600.woff2') format('woff2')}
+@font-face{font-family:'Baloo 2';font-weight:700;src:url('fuentes/baloo2-latin-700.woff2') format('woff2')}
+@font-face{font-family:'Baloo 2';font-weight:800;src:url('fuentes/baloo2-latin-800.woff2') format('woff2')}
+:root{--tinta:#1D2B3A;--azul:#2E7BF6;--rosa:#E0329E;--amarillo:#FFD23F;--verde:#2FA84F;--morado:#7B53C1;--gris:#4A5B6C}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1350px;overflow:hidden}
+body{font-family:'Baloo 2','Trebuchet MS',Arial,sans-serif;color:var(--tinta);background:#EAF6FF;-webkit-font-smoothing:antialiased;padding:60px 70px 0}
+.marca{display:flex;align-items:center;gap:18px;font-weight:700;font-size:38px}
+.marca svg{width:86px;height:86px}
+.etq{display:inline-block;margin-top:40px;padding:7px 22px 3px;border-radius:999px;font-weight:800;font-size:29px;color:#fff;background:var(--rosa)}
+h1{margin-top:16px;font-weight:800;font-size:84px;line-height:.98;letter-spacing:-1px}
+.retos{margin-top:46px;display:grid;gap:30px}
+.r{display:flex;align-items:center;gap:30px;background:#fff;border-radius:30px;padding:40px 38px 34px;box-shadow:0 6px 0 #CFE3F7}
+.c{flex:none;width:172px;text-align:center;border-radius:22px;padding:12px 0 6px;color:#fff;font-weight:800;line-height:1}
+.c b{display:block;font-size:74px}
+.c span{display:block;font-size:25px;margin-top:4px;opacity:.95}
+.op{font-weight:800;font-size:104px;line-height:1;letter-spacing:-1px;white-space:nowrap}
+.op i{font-style:normal;color:#9AA9B7}
+.pie{position:absolute;left:70px;right:70px;bottom:66px}
+.pie p{font-weight:700;font-size:34px;line-height:1.2}
+.pie p + p{margin-top:10px;font-weight:600;font-size:29px;color:var(--gris)}
+.pie b{color:var(--azul)}
+</style></head>
+<body>
+<div class="marca"><svg viewBox="0 0 512 512"><path d="M0 110a110 110 0 0 1 110-110h146v512H110A110 110 0 0 1 0 402Z" fill="#2E7BF6"/><path d="M256 0h146a110 110 0 0 1 110 110v292a110 110 0 0 1-110 110H256Z" fill="#E0329E"/><path d="M127 174v164M45 256h164" stroke="#fff" stroke-width="43" stroke-linecap="round"/><path d="M328 197 L440 315 M440 197 L328 315" stroke="#fff" stroke-width="43" stroke-linecap="round"/></svg>tirayafloja.com</div>
+<span class="etq">Reto para tu clase</span>
+<h1>¿Hasta qué curso llega tu clase?</h1>
+<div class="retos">
+  <div class="r"><div class="c" style="background:var(--verde)"><b>2º</b><span>Primaria</span></div><div class="op">47 + 38 <i>= ?</i></div></div>
+  <div class="r"><div class="c" style="background:var(--azul)"><b>4º</b><span>Primaria</span></div><div class="op">3/4 de 20 <i>= ?</i></div></div>
+  <div class="r"><div class="c" style="background:var(--morado)"><b>6º</b><span>Primaria</span></div><div class="op">15 % de 80 <i>= ?</i></div></div>
+</div>
+<div class="pie">
+  <p>Dejad vuestras respuestas en comentarios.</p>
+  <p>Y para jugar por equipos en la pizarra: <b>tirayafloja.com</b></p>
+</div>
+</body></html>
