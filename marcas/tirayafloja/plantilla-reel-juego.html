@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<!-- Fondo de un Reel 1080x1920 con una partida grabada. La partida (1280x800) va encima, escalada a 1000x625, en x=40 y=600
+     (herramientas/reel.sh). Datos: {"gancho":"¿Qué equipo gana?","nombre":"Tira y afloja","linea":"...","cta":"...","foto":"capturas/tira-y-afloja.jpg"}
+     "foto" solo sirve para la portada: pone una imagen en el hueco de la partida. -->
+<style>
+@font-face{font-family:'Baloo 2';font-weight:600;src:url('fuentes/baloo2-latin-600.woff2') format('woff2')}
+@font-face{font-family:'Baloo 2';font-weight:700;src:url('fuentes/baloo2-latin-700.woff2') format('woff2')}
+@font-face{font-family:'Baloo 2';font-weight:800;src:url('fuentes/baloo2-latin-800.woff2') format('woff2')}
+:root{--tinta:#1D2B3A;--azul:#2E7BF6;--rosa:#E0329E;--amarillo:#FFD23F;--gris:#4A5B6C}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden}
+body{font-family:'Baloo 2','Trebuchet MS',Arial,sans-serif;color:var(--tinta);background:#EAF6FF;-webkit-font-smoothing:antialiased;position:relative}
+.marca{position:absolute;left:60px;top:170px;display:flex;align-items:center;gap:18px;font-weight:700;font-size:40px}
+.marca svg{width:96px;height:96px}
+h1{position:absolute;left:60px;right:60px;top:300px;font-weight:800;font-size:112px;line-height:.95;letter-spacing:-1.5px}
+.nom{position:absolute;left:60px;top:470px;display:inline-block;padding:8px 26px 4px;border-radius:999px;background:var(--rosa);color:#fff;font-weight:800;font-size:38px}
+.marco{position:absolute;left:24px;top:584px;width:1032px;height:657px;background:var(--tinta);border-radius:30px;box-shadow:0 26px 60px rgba(29,43,58,.25)}
+.marco img{position:absolute;left:16px;top:16px;width:1000px;height:625px;border-radius:12px;object-fit:cover}
+.marco::after{content:'';position:absolute;left:50%;bottom:-22px;width:34%;height:15px;margin-left:-17%;border-radius:0 0 12px 12px;background:var(--amarillo)}
+.linea{position:absolute;left:60px;right:140px;top:1300px;font-weight:800;font-size:64px;line-height:1.02}
+.cta{position:absolute;left:60px;top:1470px;display:inline-block;padding:12px 32px 7px;border-radius:999px;background:var(--amarillo);font-weight:800;font-size:44px}
+</style></head>
+<body>
+<div class="marca"><svg viewBox="0 0 512 512"><path d="M0 110a110 110 0 0 1 110-110h146v512H110A110 110 0 0 1 0 402Z" fill="#2E7BF6"/><path d="M256 0h146a110 110 0 0 1 110 110v292a110 110 0 0 1-110 110H256Z" fill="#E0329E"/><path d="M127 174v164M45 256h164" stroke="#fff" stroke-width="43" stroke-linecap="round"/><path d="M328 197 L440 315 M440 197 L328 315" stroke="#fff" stroke-width="43" stroke-linecap="round"/></svg>tirayafloja.com</div>
+<h1 id="gancho">¿Qué equipo gana?</h1>
+<span class="nom" id="nom">Tira y afloja</span>
+<div class="marco"><img id="foto" alt="" style="display:none"></div>
+<p class="linea" id="linea">Cada acierto tira de la cuerda hacia tu equipo.</p>
+<span class="cta" id="cta">5 partidas gratis en tirayafloja.com</span>
+<script>
+window.pinta = function (d) {
+  var $ = function (i) { return document.getElementById(i); };
+  if (d.gancho) $('gancho').textContent = d.gancho;
+  if (d.nombre) $('nom').textContent = d.nombre;
+  if (d.linea) $('linea').textContent = d.linea;
+  if (d.cta) $('cta').textContent = d.cta;
+  if (d.foto) { $('foto').src = d.foto; $('foto').style.display = 'block'; }
+  if (d.fondo) document.body.style.background = d.fondo;
+  /* si el texto no cabe, baja la letra hasta que quepa en su sitio */
+  function encaja(el, alto) { var t = parseFloat(getComputedStyle(el).fontSize); while (el.scrollHeight > alto && t > 40) { t -= 4; el.style.fontSize = t + 'px'; } }
+  encaja($('gancho'), 150); encaja($('linea'), 140);
+};
+</script>
+</body></html>

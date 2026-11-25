@@ -8,6 +8,8 @@ const { chromium } = require('playwright'); const fs = require('fs');
   const l = [], re = /\{ id: '([^']+)', t: '([^']*)', d: '((?:[^'\\]|\\.)*)', area: '([^']*)', stages: \[([^\]]*)\], tags: \[([^\]]*)\], url: '([^']*)'/g; let m;
   const vistos = {};
   while ((m = re.exec(src))) { if (vistos[m[1]]) continue; vistos[m[1]] = 1; l.push({ id: m[1], nombre: m[2], desc: m[3].replace(/\\'/g, "'"), area: m[4], etapas: m[5].replace(/'/g, '').split(',').map(s => s.trim()).filter(Boolean), temas: m[6].replace(/'/g, '').split(',').map(s => s.trim()).filter(Boolean), url: 'https://www.tirayafloja.com/' + m[7] }); }
+  const u = x => typeof x === 'string' ? x.replace(/\\u([0-9a-fA-F]{4})/g, (m, h) => String.fromCharCode(parseInt(h, 16))) : x;
+  l.forEach(x => { x.nombre = u(x.nombre); x.desc = u(x.desc); x.temas = x.temas.map(u); });
   fs.writeFileSync(__dirname + '/../marcas/tirayafloja/juegos.json', JSON.stringify(l, null, 1));
   const por = {}; l.forEach(x => por[x.area] = (por[x.area] || 0) + 1); console.log(l.length, por); console.log(l.slice(0, 2));
   await b.close();

@@ -510,7 +510,7 @@
  {
   "id": "vasos",
   "nombre": "Los vasos",
-  "desc": "Sale una carta diciendo d\\u00f3nde va el vaso de color. Tocas un vaso y una casilla, y cambian de sitio. Gana quien lo coloque antes.",
+  "desc": "Sale una carta diciendo dónde va el vaso de color. Tocas un vaso y una casilla, y cambian de sitio. Gana quien lo coloque antes.",
   "area": "world",
   "etapas": [
    "infantil",
@@ -519,7 +519,7 @@
    "primaria3"
   ],
   "temas": [
-   "Atenci\\u00f3n",
+   "Atención",
    "Rapidez"
   ],
   "url": "https://www.tirayafloja.com/juegos/vasos.html"
@@ -536,14 +536,14 @@
    "primaria3"
   ],
   "temas": [
-   "L\\u00f3gica",
+   "Lógica",
    "Colores"
   ],
   "url": "https://www.tirayafloja.com/juegos/cubo.html"
  },
  {
   "id": "taquin",
-  "nombre": "El taqu\\u00edn",
+  "nombre": "El taquín",
   "desc": "Fichas y un hueco libre: tocas la de al lado y se desliza. Hay que llevar la ficha amarilla a su casilla, o dejar todo en orden.",
   "area": "world",
   "etapas": [
@@ -553,8 +553,8 @@
    "primaria3"
   ],
   "temas": [
-   "L\\u00f3gica",
-   "Orientaci\\u00f3n"
+   "Lógica",
+   "Orientación"
   ],
   "url": "https://www.tirayafloja.com/juegos/taquin.html"
  },
@@ -570,7 +570,7 @@
    "primaria3"
   ],
   "temas": [
-   "L\\u00f3gica",
+   "Lógica",
    "Colores"
   ],
   "url": "https://www.tirayafloja.com/juegos/torres.html"
@@ -784,7 +784,7 @@
  {
   "id": "ahorcado",
   "nombre": "El ahorcado del globo",
-  "desc": "Palabra escondida con su pista. Cada letra fallada baja el globo; si toca el suelo, se acab\\u00f3 esa palabra.",
+  "desc": "Palabra escondida con su pista. Cada letra fallada baja el globo; si toca el suelo, se acabó esa palabra.",
   "area": "lang",
   "etapas": [
    "primaria1",
@@ -799,8 +799,8 @@
  },
  {
   "id": "cuantos",
-  "nombre": "\\u00bfCu\\u00e1ntos hay?",
-  "desc": "Sale una cantidad dibujada de formas distintas: en un marco de diez, con dedos, con dados o con palotes. Cada equipo pulsa el n\\u00famero en su mitad y gana el que llegue antes a la meta.",
+  "nombre": "¿Cuántos hay?",
+  "desc": "Sale una cantidad dibujada de formas distintas: en un marco de diez, con dedos, con dados o con palotes. Cada equipo pulsa el número en su mitad y gana el que llegue antes a la meta.",
   "area": "math",
   "etapas": [
    "infantil",
@@ -808,14 +808,14 @@
   ],
   "temas": [
    "Contar",
-   "N\\u00fameros"
+   "Números"
   ],
   "url": "https://www.tirayafloja.com/juegos/cuantos.html"
  },
  {
   "id": "partes",
   "nombre": "Las dos partes",
-  "desc": "Una barra entera se parte en dos trozos. Se ve uno y hay que averiguar el otro, completando la operaci\\u00f3n. Unas veces se pregunta sumando y otras restando: es lo mismo visto del derecho y del rev\\u00e9s.",
+  "desc": "Una barra entera se parte en dos trozos. Se ve uno y hay que averiguar el otro, completando la operación. Unas veces se pregunta sumando y otras restando: es lo mismo visto del derecho y del revés.",
   "area": "math",
   "etapas": [
    "infantil",
@@ -866,7 +866,7 @@
  {
   "id": "capas",
   "nombre": "Capas de colores",
-  "desc": "Sale una figura de colores y abajo hay l\\u00e1minas transparentes. Al tocarlas se apilan: la de arriba tapa a las de abajo, as\\u00ed que hay que dar con las correctas y con el orden correcto.",
+  "desc": "Sale una figura de colores y abajo hay láminas transparentes. Al tocarlas se apilan: la de arriba tapa a las de abajo, así que hay que dar con las correctas y con el orden correcto.",
   "area": "world",
   "etapas": [
    "infantil",
@@ -875,7 +875,7 @@
    "primaria3"
   ],
   "temas": [
-   "L\\u00f3gica",
+   "Lógica",
    "Formas"
   ],
   "url": "https://www.tirayafloja.com/juegos/capas.html"
@@ -938,7 +938,7 @@
  {
   "id": "dibujo",
   "nombre": "Copia el dibujo",
-  "desc": "Sale un dibujo y cada equipo lo copia con el dedo en su pizarra. Al acabar, el juego da a cada copia de 1 a 10 estrellas, o decide la clase. Tambi\\u00e9n de memoria, o solo para dibujar.",
+  "desc": "Sale un dibujo y cada equipo lo copia con el dedo en su pizarra. Al acabar, el juego da a cada copia de 1 a 10 estrellas, o decide la clase. También de memoria, o solo para dibujar.",
   "area": "arte",
   "etapas": [
    "infantil",
@@ -948,14 +948,14 @@
   ],
   "temas": [
    "Dibujo",
-   "Atenci\\u00f3n"
+   "Atención"
   ],
   "url": "https://www.tirayafloja.com/juegos/dibujo.html"
  },
  {
   "id": "gatos",
   "nombre": "Que viene el lobo",
-  "desc": "Cuando viene el lobo, cada gatito a su casa y el lobo fuera. Cuando hace sol, al rev\\u00e9s: todos al jard\\u00edn. Piezas de jard\\u00edn con casita, de formas distintas. Soluci\\u00f3n \\u00fanica.",
+  "desc": "Cuando viene el lobo, cada gatito a su casa y el lobo fuera. Cuando hace sol, al revés: todos al jardín. Piezas de jardín con casita, de formas distintas. Solución única.",
   "area": "world",
   "etapas": [
    "infantil",
@@ -964,7 +964,7 @@
    "primaria3"
   ],
   "temas": [
-   "L\\u00f3gica",
+   "Lógica",
    "Espacio"
   ],
   "url": "https://www.tirayafloja.com/juegos/gatos.html"
@@ -1127,7 +1127,7 @@
  {
   "id": "crucigrama",
   "nombre": "Crucigrama de cuentas",
-  "desc": "Un tablero de cuentas cruzadas con huecos: se arrastran los n\\u00fameros de abajo hasta que todas las cuentas salen bien.",
+  "desc": "Un tablero de cuentas cruzadas con huecos: se arrastran los números de abajo hasta que todas las cuentas salen bien.",
   "area": "math",
   "etapas": [
    "primaria1",
@@ -1143,14 +1143,14 @@
  {
   "id": "valor",
   "nombre": "Centenas, decenas y unidades",
-  "desc": "Salen placas de cien, barras de diez y cubos de uno: hay que contar y encestar el bal\\u00f3n del n\\u00famero correcto.",
+  "desc": "Salen placas de cien, barras de diez y cubos de uno: hay que contar y encestar el balón del número correcto.",
   "area": "math",
   "etapas": [
    "primaria1",
    "primaria2"
   ],
   "temas": [
-   "N\\u00fameros",
+   "Números",
    "Descomponer"
   ],
   "url": "https://www.tirayafloja.com/juegos/valor.html"
@@ -1174,7 +1174,7 @@
  {
   "id": "comparar",
   "nombre": "Mayor, menor o igual",
-  "desc": "Salen dos n\\u00fameros y hay que disparar a la diana del signo correcto. Tambi\\u00e9n con sumas y restas en los dos lados.",
+  "desc": "Salen dos números y hay que disparar a la diana del signo correcto. También con sumas y restas en los dos lados.",
   "area": "math",
   "etapas": [
    "infantil",
@@ -1183,14 +1183,14 @@
   ],
   "temas": [
    "Comparar",
-   "N\\u00fameros"
+   "Números"
   ],
   "url": "https://www.tirayafloja.com/juegos/comparar.html"
  },
  {
   "id": "match",
   "nombre": "Parejas que suman 10",
-  "desc": "Toca dos n\\u00fameros iguales o que sumen 10 y revientan. El tablero se va vaciando y gana quien lo limpie antes.",
+  "desc": "Toca dos números iguales o que sumen 10 y revientan. El tablero se va vaciando y gana quien lo limpie antes.",
   "area": "math",
   "etapas": [
    "infantil",
@@ -1198,7 +1198,7 @@
   ],
   "temas": [
    "Sumar",
-   "Atenci\\u00f3n"
+   "Atención"
   ],
   "url": "https://www.tirayafloja.com/juegos/match.html"
  },
@@ -1255,8 +1255,8 @@
  },
  {
   "id": "ordenar",
-  "nombre": "La oruga ordena n\\u00fameros",
-  "desc": "Los n\\u00fameros son los trozos del cuerpo de una oruga: se arrastran a su sitio, del m\\u00e1s peque\\u00f1o al m\\u00e1s grande (o al rev\\u00e9s). De 3 a 10 trozos y hasta 10000.",
+  "nombre": "La oruga ordena números",
+  "desc": "Los números son los trozos del cuerpo de una oruga: se arrastran a su sitio, del más pequeño al más grande (o al revés). De 3 a 10 trozos y hasta 10000.",
   "area": "math",
   "etapas": [
    "infantil",
@@ -1265,15 +1265,15 @@
    "primaria3"
   ],
   "temas": [
-   "N\\u00fameros",
+   "Números",
    "Comparar"
   ],
   "url": "https://www.tirayafloja.com/juegos/ordenar.html"
  },
  {
   "id": "bloques",
-  "nombre": "Haz el n\\u00famero",
-  "desc": "Sale un n\\u00famero y hay que llenar su barra justa con regletas de colores: el 9 puede ser 6 y 3, o 5 y 4, o 4 y 4 y 1. Si tocas una regleta ya puesta, la quitas.",
+  "nombre": "Haz el número",
+  "desc": "Sale un número y hay que llenar su barra justa con regletas de colores: el 9 puede ser 6 y 3, o 5 y 4, o 4 y 4 y 1. Si tocas una regleta ya puesta, la quitas.",
   "area": "math",
   "etapas": [
    "infantil",
@@ -1288,7 +1288,7 @@
  {
   "id": "bingo",
   "nombre": "Bingo",
-  "desc": "Sale una bola y cada equipo busca en su cart\\u00f3n. Con n\\u00fameros, formas de colores, animales o cuentas: sale 7 + 2 y marcas el 9.",
+  "desc": "Sale una bola y cada equipo busca en su cartón. Con números, formas de colores, animales o cuentas: sale 7 + 2 y marcas el 9.",
   "area": "math",
   "etapas": [
    "infantil",
@@ -1297,15 +1297,15 @@
    "primaria3"
   ],
   "temas": [
-   "N\\u00fameros",
-   "Atenci\\u00f3n"
+   "Números",
+   "Atención"
   ],
   "url": "https://www.tirayafloja.com/juegos/bingo.html"
  },
  {
   "id": "sopa",
   "nombre": "Sopa de letras",
-  "desc": "Arrastra el dedo por las letras para encontrar las palabras de la lista. Por temas: animales, comida, escuela, el cuerpo o ingl\\u00e9s.",
+  "desc": "Arrastra el dedo por las letras para encontrar las palabras de la lista. Por temas: animales, comida, escuela, el cuerpo o inglés.",
   "area": "lang",
   "etapas": [
    "primaria1",
@@ -1321,7 +1321,7 @@
  {
   "id": "rueda",
   "nombre": "La rueda de palabras",
-  "desc": "La rueda gira y para en una palabra: hay que decirla en ingl\\u00e9s, usarla en una frase, contar sus s\\u00edlabas o buscarle una rima.",
+  "desc": "La rueda gira y para en una palabra: hay que decirla en inglés, usarla en una frase, contar sus sílabas o buscarle una rima.",
   "area": "lang",
   "etapas": [
    "primaria1",

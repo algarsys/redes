@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<!-- Diapositiva de carrusel 1080x1350. Datos según el tipo:
+     {"tipo":"portada","etiqueta":"...","titulo":"...","sub":"...","fondo":"#EAF6FF","color":"#E0329E","desliza":true}
+     {"tipo":"juego","num":"1","id":"tira-y-afloja","titulo":"Tira y afloja","sub":"...","pie":"1º a 6º de Primaria","fondo":"#FFF4D6","color":"#2E7BF6"}
+     {"tipo":"final","titulo":"Pruébalo en tu clase","sub":"..."}  -->
+<style>
+@font-face{font-family:'Baloo 2';font-weight:600;src:url('fuentes/baloo2-latin-600.woff2') format('woff2')}
+@font-face{font-family:'Baloo 2';font-weight:700;src:url('fuentes/baloo2-latin-700.woff2') format('woff2')}
+@font-face{font-family:'Baloo 2';font-weight:800;src:url('fuentes/baloo2-latin-800.woff2') format('woff2')}
+:root{--tinta:#1D2B3A;--azul:#2E7BF6;--rosa:#E0329E;--amarillo:#FFD23F;--verde:#2FA84F;--morado:#7B53C1;--gris:#4A5B6C;--color:#2E7BF6}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1350px;overflow:hidden}
+body{font-family:'Baloo 2','Trebuchet MS',Arial,sans-serif;color:var(--tinta);background:#EAF6FF;-webkit-font-smoothing:antialiased;position:relative;padding:60px 70px 0}
+.marca{display:flex;align-items:center;gap:18px;font-weight:700;font-size:38px}
+.marca svg{width:86px;height:86px;flex:none}
+.marca .desl{margin-left:auto;display:flex;align-items:center;gap:6px;font-weight:800;font-size:30px}
+.marca .desl svg{width:40px;height:40px}
+.etq{display:inline-block;margin-top:40px;padding:7px 22px 3px;border-radius:999px;font-weight:800;font-size:30px;color:#fff;background:var(--color)}
+h1{margin-top:16px;font-weight:800;font-size:96px;line-height:.96;letter-spacing:-1.5px}
+.sub{margin-top:20px;font-weight:600;font-size:38px;line-height:1.22;color:var(--gris)}
+/* juego */
+.num{position:absolute;right:70px;top:190px;width:150px;height:150px;border-radius:40px;background:var(--color);color:#fff;font-weight:800;font-size:110px;line-height:165px;text-align:center}
+.juego h1{font-size:84px;margin-top:56px;max-width:760px}
+.juego .sub{font-size:36px;max-width:770px}
+.juego .marco{position:relative;left:auto;right:auto;bottom:auto;margin-top:48px}
+.marco{position:absolute;left:70px;right:70px;bottom:170px;background:var(--tinta);border-radius:30px;padding:16px;box-shadow:0 24px 60px rgba(29,43,58,.22)}
+.marco img{display:block;width:100%;border-radius:15px}
+.marco::after{content:'';position:absolute;left:50%;bottom:-20px;width:34%;height:14px;margin-left:-17%;border-radius:0 0 12px 12px;background:var(--amarillo)}
+.pie{position:absolute;left:70px;bottom:58px;padding:8px 24px 4px;border-radius:999px;background:#fff;font-weight:800;font-size:32px;box-shadow:0 4px 0 rgba(29,43,58,.12)}
+/* portada */
+.portada h1{font-size:118px;margin-top:30px}
+.portada .sub{font-size:42px;max-width:900px}
+.portada .marco{left:150px;right:150px;bottom:80px}
+.grande{position:absolute;right:-40px;bottom:-40px;width:520px;height:520px;opacity:.95}
+/* areas: lista de asignaturas con su número de juegos */
+.areas h1{font-size:104px;margin-top:34px}
+.areas .logo{display:block;width:210px;height:210px}
+.areas .logo svg{width:210px;height:210px}
+.areas .sub{font-size:38px;max-width:920px}
+.lista{margin-top:38px;display:grid;grid-template-columns:1fr 1fr;gap:16px 20px}
+.lista div{display:flex;align-items:center;gap:16px;background:#fff;border-radius:22px;padding:20px 24px 16px;box-shadow:0 4px 0 rgba(29,43,58,.10);font-weight:800;font-size:35px;line-height:1.05}
+.lista div:last-child:nth-child(odd){grid-column:1 / -1}
+.lista i{flex:none;width:30px;height:30px;border-radius:9px}
+.lista b{margin-left:auto;font-size:40px;color:var(--gris)}
+.areas .pie{bottom:60px;background:var(--amarillo);font-size:40px;padding:12px 34px 7px}
+/* icono: número, título, texto y un dibujo grande */
+.icono h1{font-size:84px;margin-top:56px;max-width:760px}
+.icono .sub{font-size:38px;max-width:770px}
+.icono .dib{position:absolute;left:70px;right:70px;bottom:170px;height:600px;display:flex;align-items:center;justify-content:center;gap:60px}
+.icono .tab{width:340px;height:480px;border-radius:40px;background:var(--tinta);padding:18px;box-shadow:0 24px 60px rgba(29,43,58,.22)}
+.icono .tab div{width:100%;height:100%;border-radius:24px;background:#fff;display:flex;align-items:center;justify-content:center}
+.icono .tab svg{width:170px;height:170px}
+.icono .cod{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);padding:14px 30px 8px;border-radius:22px;background:var(--amarillo);font-weight:800;font-size:58px;letter-spacing:8px;box-shadow:0 10px 26px rgba(29,43,58,.25)}
+/* final */
+.final{background:var(--tinta);color:#fff;text-align:center;padding-top:200px}
+.final .logo{width:230px;height:230px;margin:0 auto;display:block}
+.final h1{margin-top:44px;font-size:104px}
+.final .sub{color:#C9D6E3;margin:24px auto 0;max-width:860px;font-size:40px}
+.final .gratis{display:inline-block;margin-top:46px;padding:12px 40px 7px;border-radius:999px;background:var(--amarillo);color:var(--tinta);font-weight:800;font-size:44px}
+.final .url{margin-top:50px;font-weight:800;font-size:70px}
+.final .franja{position:absolute;left:0;right:0;bottom:0;height:24px;display:flex}
+.final .franja i{flex:1}
+.oculto{display:none !important}
+</style></head>
+<body>
+<div id="cab" class="marca"><svg viewBox="0 0 512 512"><path d="M0 110a110 110 0 0 1 110-110h146v512H110A110 110 0 0 1 0 402Z" fill="#2E7BF6"/><path d="M256 0h146a110 110 0 0 1 110 110v292a110 110 0 0 1-110 110H256Z" fill="#E0329E"/><path d="M127 174v164M45 256h164" stroke="#fff" stroke-width="43" stroke-linecap="round"/><path d="M328 197 L440 315 M440 197 L328 315" stroke="#fff" stroke-width="43" stroke-linecap="round"/></svg>tirayafloja.com<span class="desl oculto" id="desl">Desliza <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></div>
+<div id="cuerpo"></div>
+<script>
+var LOGO = '<svg viewBox="0 0 512 512"><path d="M0 110a110 110 0 0 1 110-110h146v512H110A110 110 0 0 1 0 402Z" fill="#2E7BF6"/><path d="M256 0h146a110 110 0 0 1 110 110v292a110 110 0 0 1-110 110H256Z" fill="#E0329E"/><path d="M127 174v164M45 256h164" stroke="#fff" stroke-width="43" stroke-linecap="round"/><path d="M328 197 L440 315 M440 197 L328 315" stroke="#fff" stroke-width="43" stroke-linecap="round"/></svg>';
+function esc(s) { return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;'); }
+window.pinta = function (d) {
+  var c = document.getElementById('cuerpo'), b = document.body;
+  if (d.fondo) b.style.background = d.fondo;
+  if (d.color) document.documentElement.style.setProperty('--color', d.color);
+  if (d.desliza) document.getElementById('desl').classList.remove('oculto');
+  b.className = d.tipo || '';
+  if (d.tipo === 'portada') {
+    c.innerHTML = (d.etiqueta ? '<span class="etq">' + esc(d.etiqueta) + '</span>' : '') + '<h1>' + esc(d.titulo) + '</h1>' + (d.sub ? '<p class="sub">' + esc(d.sub) + '</p>' : '') +
+      (d.id ? '<div class="marco"><img src="capturas/' + d.id + '.jpg" alt=""></div>' : '');
+  } else if (d.tipo === 'juego') {
+    c.innerHTML = '<div class="num">' + esc(d.num) + '</div><h1>' + esc(d.titulo) + '</h1><p class="sub">' + esc(d.sub) + '</p>' +
+      '<div class="marco"><img src="' + (d.foto || ('capturas/' + d.id + '.jpg')) + '" alt=""></div>' + (d.pie ? '<span class="pie">' + esc(d.pie) + '</span>' : '');
+  } else if (d.tipo === 'areas') {
+    document.getElementById('cab').classList.add('oculto');
+    var h = '<span class="logo">' + LOGO + '</span><h1>' + esc(d.titulo) + '</h1><p class="sub">' + esc(d.sub) + '</p><div class="lista">';
+    for (var i = 0; i < d.areas.length; i++) { h += '<div><i style="background:' + d.areas[i][2] + '"></i>' + esc(d.areas[i][0]) + '<b>' + esc(d.areas[i][1]) + '</b></div>'; }
+    c.innerHTML = h + '</div>' + (d.pie ? '<span class="pie">' + esc(d.pie) + '</span>' : '');
+  } else if (d.tipo === 'icono') {
+    var PER = '<svg viewBox="0 0 24 24" fill="none" stroke="' + (d.trazo || '#2E7BF6') + '" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4.5"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>';
+    var tab = function (col) { return '<div class="tab"><div>' + PER.replace(d.trazo || '#2E7BF6', col) + '</div></div>'; };
+    c.innerHTML = '<div class="num">' + esc(d.num) + '</div><h1>' + esc(d.titulo) + '</h1><p class="sub">' + esc(d.sub) + '</p>' +
+      '<div class="dib">' + (d.dibujo === 'dos' ? tab('#2E7BF6') + tab('#E0329E') + '<span class="cod">' + esc(d.codigo || 'KTPL') + '</span>' : tab('#2FA84F')) + '</div>' + (d.pie ? '<span class="pie">' + esc(d.pie) + '</span>' : '');
+  } else if (d.tipo === 'final') {
+    document.getElementById('cab').classList.add('oculto');
+    c.innerHTML = '<span class="logo">' + LOGO + '</span><h1>' + esc(d.titulo || 'Pruébalo en tu clase') + '</h1><p class="sub">' + esc(d.sub || '100 juegos por equipos para la pizarra digital y la tablet, de Infantil a 6º de Primaria.') + '</p>' +
+      '<span class="gratis">' + esc(d.gratis || '5 partidas gratis') + '</span><p class="url">tirayafloja.com</p><div class="franja"><i style="background:#2E7BF6"></i><i style="background:#E0329E"></i><i style="background:#FFD23F"></i><i style="background:#2FA84F"></i></div>';
+    c.querySelector('.logo svg').setAttribute('width', '230'); c.querySelector('.logo svg').setAttribute('height', '230');
+  }
+};
+</script>
+</body></html>
