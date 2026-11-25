@@ -1335,21 +1335,6 @@
   "url": "https://www.tirayafloja.com/juegos/rueda.html"
  },
  {
-  "id": "palabras",
-  "nombre": "Ruleta de palabras",
-  "desc": "Palabra escondida con pista. Los dos equipos a la vez, cada uno con su teclado y a su ritmo: gana quien descubre antes cinco.",
-  "area": "lang",
-  "etapas": [
-   "primaria2",
-   "primaria3"
-  ],
-  "temas": [
-   "Vocabulario",
-   "Ortografía"
-  ],
-  "url": "https://www.tirayafloja.com/juegos/ruleta.html"
- },
- {
   "id": "quiz",
   "nombre": "Duelo de preguntas",
   "desc": "Pregunta y tres respuestas, los dos equipos a la vez y a contrarreloj. Bancos de entorno, mates e inglés, y editor para meter las tuyas.",
