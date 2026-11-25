@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<!-- Fondo de un Reel corto para enganchar (1080x1920), con herramientas/reel-gancho.sh: pregunta muy grande arriba,
+     la partida (1280x800) escalada a 1016x635 en x=32 y=700, y una frase abajo. Todo queda por encima de y=1500, que es
+     donde Instagram pone el nombre y el texto. Datos: {"gancho":"Elige un camello. ¿Cuál gana?","nombre":"Carrera de camellos","linea":"...","fondo":"#FFD23F"} -->
+<style>
+@font-face{font-family:'Baloo 2';font-weight:600;src:url('fuentes/baloo2-latin-600.woff2') format('woff2')}
+@font-face{font-family:'Baloo 2';font-weight:700;src:url('fuentes/baloo2-latin-700.woff2') format('woff2')}
+@font-face{font-family:'Baloo 2';font-weight:800;src:url('fuentes/baloo2-latin-800.woff2') format('woff2')}
+:root{--tinta:#1D2B3A;--azul:#2E7BF6;--rosa:#E0329E;--amarillo:#FFD23F}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden}
+body{font-family:'Baloo 2','Trebuchet MS',Arial,sans-serif;color:var(--tinta);background:var(--amarillo);-webkit-font-smoothing:antialiased;position:relative}
+.marca{position:absolute;left:48px;top:150px;display:flex;align-items:center;gap:16px;font-weight:700;font-size:38px}
+.marca svg{width:84px;height:84px}
+h1{position:absolute;left:48px;right:48px;top:262px;height:330px;display:flex;align-items:center;font-weight:800;font-size:128px;line-height:.92;letter-spacing:-2px}
+.nom{position:absolute;left:48px;top:612px;display:inline-block;padding:8px 26px 4px;border-radius:999px;background:var(--tinta);color:#fff;font-weight:800;font-size:38px}
+.marco{position:absolute;left:16px;top:684px;width:1048px;height:667px;background:var(--tinta);border-radius:30px;box-shadow:0 26px 60px rgba(29,43,58,.28)}
+.linea{position:absolute;left:48px;right:110px;top:1380px;height:150px;display:flex;align-items:center;font-weight:800;font-size:68px;line-height:1.02}
+</style></head>
+<body>
+<div class="marca"><svg viewBox="0 0 512 512"><path d="M0 110a110 110 0 0 1 110-110h146v512H110A110 110 0 0 1 0 402Z" fill="#2E7BF6"/><path d="M256 0h146a110 110 0 0 1 110 110v292a110 110 0 0 1-110 110H256Z" fill="#E0329E"/><path d="M127 174v164M45 256h164" stroke="#fff" stroke-width="43" stroke-linecap="round"/><path d="M328 197 L440 315 M440 197 L328 315" stroke="#fff" stroke-width="43" stroke-linecap="round"/></svg>tirayafloja.com</div>
+<h1 id="gancho">Elige un camello. ¿Cuál gana?</h1>
+<span class="nom" id="nom">Carrera de camellos</span>
+<div class="marco"></div>
+<p class="linea" id="linea">Mira hasta el final.</p>
+<script>
+window.pinta = function (d) {
+  var $ = function (i) { return document.getElementById(i); };
+  if (d.gancho) $('gancho').textContent = d.gancho;
+  if (d.nombre) $('nom').textContent = d.nombre;
+  if (d.linea) $('linea').textContent = d.linea;
+  if (d.fondo) document.body.style.background = d.fondo;
+  function encaja(el, alto) { var t = parseFloat(getComputedStyle(el).fontSize); el.style.height = 'auto'; while (el.scrollHeight > alto && t > 40) { t -= 4; el.style.fontSize = t + 'px'; } el.style.height = alto + 'px'; }
+  encaja($('gancho'), 330); encaja($('linea'), 150);
+};
+</script>
+</body></html>

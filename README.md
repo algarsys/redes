@@ -26,3 +26,12 @@ Formatos: feed 1080x1350 (4:5) o 1080x1080; carrusel de hasta 10 imágenes; Reel
     herramientas/reel.sh fondo.png marcas/tirayafloja/partidas/tira-y-afloja.mp4 0 26 reel.mp4
 
 La portada del Reel: la misma plantilla con "foto" (un fotograma de la partida) y guardada en JPG.
+
+## Reel corto con gancho
+
+Pregunta grande arriba ("Elige un camello. ¿Cuál gana?"), la partida acelerada y el final a velocidad normal, y abajo una
+frase que cambia al final para pedir comentarios. Unos 15 segundos. La música se pone al programarlo, con la de Instagram.
+
+    node herramientas/foto.js marcas/tirayafloja/plantilla-reel-gancho.html a.png 1080 1920 '{"gancho":"...","nombre":"...","linea":"Mira hasta el final."}'
+    node herramientas/foto.js marcas/tirayafloja/plantilla-reel-gancho.html b.png 1080 1920 '{"gancho":"...","nombre":"...","linea":"¿Ha ganado el tuyo? Dinos tu color en comentarios."}'
+    ESCALA=1016:635 POS=32:700 herramientas/reel-gancho.sh a.png b.png marcas/tirayafloja/partidas/camellos.mp4 0.4 34.6 36.4 2.6 reel.mp4
