@@ -20,3 +20,4 @@
 | 2026-11-25 | 14:35 | ReservaDeportes | Imagen | Novedad: nueva intranet muy pronto | publicaciones/2026-11-25-reservadeportes-nueva-intranet |
 | 2026-11-28 | 11:00 | Tira y afloja | Reel | Partida de Carrera de camellos, 4 equipos | publicaciones/2026-11-28-tirayafloja-reel-camellos |
 | 2026-12-01 | 19:30 | Tira y afloja (solo Instagram) | Carrusel (2) | Sorteo de 10 cuentas, hasta el 14 de diciembre | publicaciones/2026-12-01-tirayafloja-sorteo |
+| 2026-12-03 | 19:30 | Tira y afloja | Reel | Partida de Penaltis | publicaciones/2026-12-03-tirayafloja-reel-penaltis |
