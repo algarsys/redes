@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<!-- Fondo de Reel 1080x1920 de ReservaDeportes. La grabación va encima en x=40 y=560, 1000x824 (simulador de domótica).
+     Datos: {"gancho":"Sin red, sin obras, *sin llaves*.","linea":"...","cta":"reservadeportes.com","foto":"(solo portada) imagen en el hueco"} -->
+<link rel="stylesheet" href="comun.css">
+<style>
+html,body{width:1080px;height:1920px}
+.cab{position:absolute;left:60px;top:150px}
+.cab .logo img{height:120px}
+h1{position:absolute;left:60px;right:60px;top:330px;font-size:96px}
+.hueco{position:absolute;left:28px;top:548px;width:1024px;height:848px;border-radius:30px;background:#fff;box-shadow:0 40px 90px -30px rgba(0,0,0,.55);overflow:hidden}
+.hueco img{position:absolute;left:12px;top:12px;width:1000px;height:824px;object-fit:cover}
+.linea{position:absolute;left:60px;right:60px;top:1440px;font-family:'Archivo';font-weight:800;font-size:54px;line-height:1.08;color:#fff}
+.cta{position:absolute;left:60px;top:1590px;padding:16px 38px 14px;border-radius:999px;background:var(--orange);color:#fff;font-family:'Archivo';font-weight:800;font-size:42px}
+</style></head>
+<body class="oscuro">
+<div class="cab"><span class="logo"><img src="logo.svg" alt="ReservaDeportes"></span></div>
+<h1 id="gancho"></h1>
+<div class="hueco"><img id="foto" alt="" style="display:none"></div>
+<p class="linea" id="linea"></p>
+<span class="cta" id="cta">reservadeportes.com</span>
+<div class="franja"></div>
+<script>
+function esc(s) { return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;'); }
+function ma(s) { return esc(s).replace(/\*([^*]+)\*/g, '<span class="o">$1</span>'); }
+window.pinta = function (d) {
+  var $ = function (i) { return document.getElementById(i); };
+  $('gancho').innerHTML = ma(d.gancho); $('linea').innerHTML = ma(d.linea); if (d.cta) $('cta').textContent = d.cta;
+  if (d.foto) { $('foto').src = d.foto; $('foto').style.display = 'block'; }
+  function encaja(el, alto) { var t = parseFloat(getComputedStyle(el).fontSize); while (el.scrollHeight > alto && t > 40) { t -= 4; el.style.fontSize = t + 'px'; } }
+  encaja($('gancho'), 200); encaja($('linea'), 130);
+};
+</script>
+</body></html>

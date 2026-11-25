@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<!-- ReservaDeportes, diapositiva 1080x1350. El texto entre *asteriscos* sale en naranja. Datos según el tipo:
+     {"tipo":"portada","etiqueta":"Para ayuntamientos","titulo":"Tu polideportivo, *sin llaves*.","sub":"...","foto":"capturas/shot_landing.webp"}
+     {"tipo":"punto","num":"1","titulo":"...","sub":"...","foto":"...","alta":true}   (alta: la foto es vertical, de móvil)
+     {"tipo":"novedad","etiqueta":"Novedad","titulo":"...","sub":"..."}
+     {"tipo":"final","titulo":"...","sub":"..."} -->
+<link rel="stylesheet" href="comun.css">
+<style>
+html,body{width:1080px;height:1350px}
+body{background:var(--tint);padding:64px 70px 0}
+.cab{display:flex;align-items:center;justify-content:space-between}
+.cab .logo img{height:118px}
+.num{width:120px;height:120px;border-radius:50%;background:var(--orange);color:#fff;font-family:'Archivo';font-weight:900;font-size:68px;display:flex;align-items:center;justify-content:center}
+h1{font-size:88px;margin-top:44px}
+.sub{margin-top:22px;font-size:36px;line-height:1.32;color:var(--muted);font-weight:500;max-width:920px}
+.etq{margin-top:46px}
+.portada h1{font-size:100px;margin-top:22px}
+.foto{position:absolute;left:70px;right:70px;bottom:90px;display:flex;justify-content:center;align-items:flex-end}
+.foto img{display:block;max-width:100%;max-height:560px;border-radius:24px;box-shadow:0 40px 90px -30px rgba(7,48,78,.45);background:#fff}
+.alta .foto img{max-height:640px;border-radius:36px}
+.portada .foto{bottom:70px}
+.portada .foto img{max-height:440px}
+.final{text-align:center;padding-top:150px}
+.final .logo{padding:26px 40px}
+.final .logo img{height:150px}
+.final h1{font-size:96px;margin-top:70px}
+.final .sub{margin:26px auto 0}
+.cta{display:inline-block;margin-top:54px;padding:20px 46px 18px;border-radius:999px;background:var(--orange);color:#fff;font-family:'Archivo';font-weight:800;font-size:46px}
+.datos{display:flex;justify-content:center;gap:56px;margin-top:70px}
+.datos div{text-align:center}
+.datos b{display:block;font-family:'Archivo';font-weight:900;font-size:64px;color:#fff}
+.datos span{font-size:26px;color:#C7D7E4}
+/* novedad: un panel en esqueleto que se está montando */
+.esq{position:absolute;left:70px;right:70px;bottom:110px;height:540px;border-radius:28px;background:rgba(255,255,255,.07);border:2px solid rgba(255,255,255,.14);padding:28px;display:grid;grid-template-columns:200px 1fr;gap:24px}
+.esq .lat{border-radius:18px;background:rgba(255,255,255,.08)}
+.esq .lat i{display:block;height:22px;margin:26px 22px 0;border-radius:11px;background:rgba(255,255,255,.18)}
+.esq .lat i:first-child{background:var(--orange)}
+.esq .pri{display:grid;grid-template-rows:90px 1fr 1fr;gap:20px}
+.esq .fila{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.esq .fila i,.esq .graf,.esq .tabla{border-radius:16px;background:rgba(255,255,255,.10)}
+.esq .graf{position:relative;overflow:hidden}
+.esq .graf::after{content:'';position:absolute;left:24px;right:24px;bottom:24px;height:60%;background:linear-gradient(0deg,rgba(245,130,31,.55),rgba(245,130,31,0));clip-path:polygon(0 80%,15% 60%,30% 70%,45% 35%,60% 50%,75% 20%,90% 30%,100% 10%,100% 100%,0 100%)}
+.pronto{position:absolute;right:110px;top:40px;transform:rotate(6deg);padding:14px 30px 12px;border-radius:16px;background:#fff;color:var(--navy);font-family:'Archivo';font-weight:900;font-size:40px;box-shadow:0 20px 40px -14px rgba(0,0,0,.5)}
+.oculto{display:none !important}
+</style></head>
+<body>
+<div class="cab" id="cab"><span class="logo"><img src="logo.svg" alt="ReservaDeportes"></span><span class="num oculto" id="num"></span></div>
+<div id="cuerpo"></div>
+<div class="franja"></div>
+<script>
+function esc(s) { return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;'); }
+function ma(s) { return esc(s).replace(/\*([^*]+)\*/g, '<span class="o">$1</span>'); }
+window.pinta = function (d) {
+  var b = document.body, c = document.getElementById('cuerpo'), n = document.getElementById('num');
+  b.className = d.tipo + (d.alta ? ' alta' : '') + (/portada|final|novedad/.test(d.tipo) ? ' oscuro' : '');
+  if (d.num) { n.textContent = d.num; n.classList.remove('oculto'); }
+  var foto = d.foto ? '<div class="foto"><img src="' + d.foto + '" alt=""></div>' : '';
+  if (d.tipo === 'portada' || d.tipo === 'punto') {
+    c.innerHTML = (d.etiqueta ? '<span class="etq">' + esc(d.etiqueta) + '</span>' : '') + '<h1>' + ma(d.titulo) + '</h1>' + (d.sub ? '<p class="sub">' + ma(d.sub) + '</p>' : '') + foto;
+  } else if (d.tipo === 'novedad') {
+    c.innerHTML = '<span class="etq">' + esc(d.etiqueta || 'Novedad') + '</span><h1>' + ma(d.titulo) + '</h1><p class="sub">' + ma(d.sub) + '</p>' +
+      '<div class="esq"><div class="lat"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="pri"><div class="fila"><i></i><i></i><i></i></div><div class="graf"></div><div class="tabla"></div></div><span class="pronto">' + esc(d.sello || 'Muy pronto') + '</span></div>';
+  } else if (d.tipo === 'final') {
+    document.getElementById('cab').classList.add('oculto');
+    c.innerHTML = '<span class="logo"><img src="logo.svg" alt="ReservaDeportes"></span><h1>' + ma(d.titulo) + '</h1>' + (d.sub ? '<p class="sub">' + ma(d.sub) + '</p>' : '') +
+      '<span class="cta">' + esc(d.cta || 'reservadeportes.com') + '</span>' +
+      '<div class="datos"><div><b>+20</b><span>años</span></div><div><b>+400.000</b><span>usuarios</span></div><div><b>+300</b><span>municipios y clubes</span></div></div>';
+  }
+};
+</script>
+</body></html>

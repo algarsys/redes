@@ -13,3 +13,8 @@
 | 2026-11-26 | 19:30 | Tira y afloja | Reel (con sonido) | ¡Llegamos a 100 juegos! | publicaciones/2026-11-26-tirayafloja-100-juegos |
 | 2026-11-27 | 19:30 | Tira y afloja | Carrusel (5) | Juega solo o hasta 4 equipos | publicaciones/2026-11-27-tirayafloja-de-1-a-4 |
 | 2026-11-29 | 19:30 | Tira y afloja | Carrusel (6) | Qué te da la cuenta por 9,99 € | publicaciones/2026-11-29-tirayafloja-tu-cuenta |
+| 2026-11-25 | 14:15 | ReservaDeportes | Carrusel (6) | Para ayuntamientos: sin colas ni llaves | publicaciones/2026-11-25-reservadeportes-ayuntamientos |
+| 2026-11-25 | 14:20 | ReservaDeportes | Reel | Simulador de domótica: sin red, sin obras, sin llaves | publicaciones/2026-11-25-reservadeportes-reel-domotica |
+| 2026-11-25 | 14:25 | ReservaDeportes | Carrusel (6) | Para clubes privados: abierto 24/7 sin personal | publicaciones/2026-11-25-reservadeportes-clubes |
+| 2026-11-25 | 14:30 | ReservaDeportes | Carrusel (6) | Así funciona: de la reserva a la luz | publicaciones/2026-11-25-reservadeportes-asi-funciona |
+| 2026-11-25 | 14:35 | ReservaDeportes | Imagen | Novedad: nueva intranet muy pronto | publicaciones/2026-11-25-reservadeportes-nueva-intranet |

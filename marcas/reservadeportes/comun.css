@@ -1,0 +1,15 @@
+/* ReservaDeportes: navy + naranja, titulares Archivo muy negros con palabra naranja y punto, texto Inter, franja azul a naranja. */
+@font-face{font-family:'Archivo';font-weight:100 900;src:url('fuentes/archivo.woff2') format('woff2')}
+@font-face{font-family:'Inter';font-weight:100 900;src:url('fuentes/inter.woff2') format('woff2')}
+:root{--navy:#07304E;--navy2:#0A436B;--orange:#F5821F;--blue:#1B7BB5;--ink:#0E2233;--muted:#5A7184;--tint:#F4F9FC;--line:#DCE7F0}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter',system-ui,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased;position:relative;overflow:hidden}
+h1{font-family:'Archivo',sans-serif;font-weight:900;letter-spacing:-.035em;line-height:1.0;color:var(--navy)}
+.o{color:var(--orange)}
+.logo{display:inline-flex;align-items:center;background:#fff;border-radius:22px;padding:18px 26px;box-shadow:0 10px 30px -12px rgba(7,48,78,.35)}
+.logo img{display:block;height:92px;width:auto}
+.etq{display:inline-block;padding:9px 22px 8px;border-radius:999px;background:var(--orange);color:#fff;font-family:'Archivo';font-weight:800;font-size:28px;letter-spacing:.01em}
+.franja{position:absolute;left:0;right:0;bottom:0;height:18px;background:linear-gradient(90deg,var(--blue),var(--orange))}
+.oscuro{background:radial-gradient(120% 80% at 80% 0%,#0E4A75 0%,var(--navy) 55%,#05243B 100%);color:#fff}
+.oscuro h1{color:#fff}
+.oscuro .sub{color:#C7D7E4}
