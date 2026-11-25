@@ -6,6 +6,7 @@ Imágenes y vídeos que se publican en Instagram y Facebook de las marcas de Alg
 
 - `publicaciones/AAAA-MM-DD-marca-tema/`: lo que sale ese día. Lleva las imágenes o el vídeo y `texto.txt` con el texto de la publicación.
 - `marcas/<marca>/`: plantillas HTML de cada marca, sus fuentes y, en Tira y afloja, `juegos.json` (los juegos de la portada) y `capturas/` (una captura de cada juego).
+- `marcas/tirayafloja/partidas/<id>.mp4`: partidas grabadas (1280x800, sin sonido) para montar Reels con `plantilla-reel-juego.html` y `herramientas/reel.sh`.
 - `herramientas/`: scripts para sacar las imágenes de las plantillas (`foto.js`), la lista de juegos (`catalogo.js`) y las capturas (`capturas.js`).
 - `publicado.md`: lo que ya está programado o publicado, para no repetir.
 
@@ -18,3 +19,10 @@ Formatos: feed 1080x1350 (4:5) o 1080x1080; carrusel de hasta 10 imágenes; Reel
 ## Enlace público de un archivo
 
     https://raw.githubusercontent.com/algarsys/redes/main/<ruta del archivo>
+
+## Reel con una partida
+
+    node herramientas/foto.js marcas/tirayafloja/plantilla-reel-juego.html fondo.png 1080 1920 '{"gancho":"¿Qué equipo gana?","nombre":"Tira y afloja","linea":"...","cta":"5 partidas gratis en tirayafloja.com"}'
+    herramientas/reel.sh fondo.png marcas/tirayafloja/partidas/tira-y-afloja.mp4 0 26 reel.mp4
+
+La portada del Reel: la misma plantilla con "foto" (un fotograma de la partida) y guardada en JPG.
