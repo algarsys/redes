@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<!-- Portada de la página de Facebook, 1640x856. Lo importante va dentro de la zona segura (x 70-1570, y 120-736):
+     en ordenador se recorta arriba y abajo, y en el móvil por los lados. -->
+<style>
+@font-face{font-family:'Baloo 2';font-weight:600;src:url('fuentes/baloo2-latin-600.woff2') format('woff2')}
+@font-face{font-family:'Baloo 2';font-weight:700;src:url('fuentes/baloo2-latin-700.woff2') format('woff2')}
+@font-face{font-family:'Baloo 2';font-weight:800;src:url('fuentes/baloo2-latin-800.woff2') format('woff2')}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1640px;height:856px;overflow:hidden}
+body{font-family:'Baloo 2',Arial,sans-serif;color:#1D2B3A;background:#EAF6FF;position:relative}
+.franja{position:absolute;left:0;right:0;bottom:0;height:22px;display:flex}
+.franja i{flex:1}
+.texto{position:absolute;left:150px;top:132px;width:720px}
+.marca{display:flex;align-items:center;gap:26px;font-weight:700;font-size:46px}
+.marca svg{width:150px;height:150px;flex:none}
+h1{margin-top:22px;font-weight:800;font-size:98px;line-height:.95;letter-spacing:-1.5px}
+.sub{margin-top:20px;font-weight:600;font-size:38px;line-height:1.22;color:#4A5B6C}
+.gratis{display:inline-block;margin-top:24px;padding:12px 34px 7px;border-radius:999px;background:#FFD23F;font-weight:800;font-size:38px}
+.pizarras{position:absolute;left:880px;top:140px;width:640px;height:560px}
+.pz{position:absolute;background:#1D2B3A;border-radius:22px;padding:12px;box-shadow:0 22px 50px rgba(29,43,58,.25)}
+.pz img{display:block;width:100%;border-radius:12px}
+.p1{left:0;top:40px;width:430px;transform:rotate(-5deg)}
+.p2{left:210px;top:250px;width:430px;transform:rotate(4deg)}
+.p3{left:250px;top:-10px;width:390px;transform:rotate(3deg)}
+</style></head>
+<body>
+<div class="texto">
+  <div class="marca"><svg viewBox="0 0 512 512"><path d="M0 110a110 110 0 0 1 110-110h146v512H110A110 110 0 0 1 0 402Z" fill="#2E7BF6"/><path d="M256 0h146a110 110 0 0 1 110 110v292a110 110 0 0 1-110 110H256Z" fill="#E0329E"/><path d="M127 174v164M45 256h164" stroke="#fff" stroke-width="43" stroke-linecap="round"/><path d="M328 197 L440 315 M440 197 L328 315" stroke="#fff" stroke-width="43" stroke-linecap="round"/></svg>tirayafloja.com</div>
+  <h1>100 juegos por equipos</h1>
+  <p class="sub">Para la pizarra digital, la tablet y el móvil. De Infantil a 6º de Primaria.</p>
+  <span class="gratis">5 partidas gratis</span>
+</div>
+<div class="pizarras">
+  <div class="pz p3"><img src="capturas/fantasmas.jpg" alt=""></div>
+  <div class="pz p1"><img src="capturas/tira-y-afloja.jpg" alt=""></div>
+  <div class="pz p2"><img src="capturas/camellos.jpg" alt=""></div>
+</div>
+<div class="franja"><i style="background:#2E7BF6"></i><i style="background:#E0329E"></i><i style="background:#FFD23F"></i><i style="background:#2FA84F"></i></div>
+</body></html>
