@@ -43,3 +43,11 @@ del navegador), con su pregunta arriba y el nombre del juego, y una escena final
 plantilla-reel-clase.html ("video":[x,y,ancho,alto] marca el hueco) y cada escena con ffmpeg: trim, setpts para
 acelerar, crop, scale al hueco y overlay sobre el fondo; las escenas, con los mismos ajustes, se unen con el concat de
 ffmpeg y -c copy. Los vídeos originales no se suben al repositorio. Ejemplo: publicaciones/2026-11-29-tirayafloja-reel-partidas-reales.
+
+## Reel por escenas con final para seguir
+
+Varias partidas seguidas (o una sola en tramos con distinta velocidad) sobre fondos de plantilla-reel-gancho.html, y al
+final la escena fija de "Síguenos" (plantilla-reel-clase.html con "final"). La receta en JSON, como en el ejemplo de
+herramientas/reel-escenas.py:
+
+    python3 herramientas/reel-escenas.py receta.json reel.mp4

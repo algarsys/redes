@@ -22,3 +22,6 @@
 | 2026-11-29 | 11:00 | Tira y afloja | Reel (partidas reales, música) | ¿Qué dibujo sale?: Une los puntos, El cuadro escondido y El número secreto | publicaciones/2026-11-29-tirayafloja-reel-partidas-reales |
 | 2026-12-01 | 19:30 | Tira y afloja (solo Instagram) | Carrusel (2) | Sorteo de 10 cuentas, hasta el 14 de diciembre | publicaciones/2026-12-01-tirayafloja-sorteo |
 | 2026-12-03 | 19:30 | Tira y afloja | Reel (gancho y música) | ¿Verde o naranja?: partida de Penaltis | publicaciones/2026-12-03-tirayafloja-reel-penaltis |
+| 2026-11-27 | 17:30 | Tira y afloja | Reel (música, final con "Síguenos") | 3 juegos que tu clase te va a pedir: Tira y afloja, Atrapa al fantasma, Carrera de camellos | publicaciones/2026-11-27-tirayafloja-reel-3-juegos |
+| 2026-12-05 | 11:00 | Tira y afloja | Reel (gancho, música, final con "Síguenos") | Reto 898 + 33: ¿lo sacáis en 5 segundos? (partida de Tira y afloja) | publicaciones/2026-12-05-tirayafloja-reel-reto-tira |
+| 2026-12-06 | 11:00 | Tira y afloja | Reel (gancho, música, final con "Síguenos") | 19 − 3: ¿encuentras el fantasma? (partida de Atrapa al fantasma) | publicaciones/2026-12-06-tirayafloja-reel-fantasma |
