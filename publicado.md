@@ -26,5 +26,5 @@
 | 2026-12-05 | 11:00 | Tira y afloja | Reel (gancho, música, final con "Síguenos") | Reto 898 + 33: ¿lo sacáis en 5 segundos? (partida de Tira y afloja) | publicaciones/2026-12-05-tirayafloja-reel-reto-tira |
 | 2026-12-06 | 11:00 | Tira y afloja | Reel (gancho, música, final con "Síguenos") | 19 − 3: ¿encuentras el fantasma? (partida de Atrapa al fantasma) | publicaciones/2026-12-06-tirayafloja-reel-fantasma |
 | 2026-11-30 | 13:30 | ReservaDeportes | Carrusel (7) | Para concejalías: 5 cosas que pedir a un sistema de reservas | publicaciones/2026-11-30-reservadeportes-5-cosas-concejalias |
-| 2026-12-02 | 13:30 | ReservaDeportes | Reel | Demo interactiva: el vecino reserva y entra en el panel del ayuntamiento | publicaciones/2026-12-02-reservadeportes-reel-demo-panel |
+| 2026-12-02 | 13:30 | ReservaDeportes | Reel (música: Excited Day, bbox) | Demo interactiva: el vecino reserva y entra en el panel del ayuntamiento | publicaciones/2026-12-02-reservadeportes-reel-demo-panel |
 | 2026-12-04 | 13:30 | ReservaDeportes | Imagen | Antes y ahora (clubes y polideportivos) | publicaciones/2026-12-04-reservadeportes-antes-ahora |
