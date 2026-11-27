@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<!-- ReservaDeportes, imagen 1080x1350 de "antes y ahora": dos columnas con la misma cantidad de filas.
+     Datos: {"etiqueta":"...","titulo":"Antes y *ahora*.","antes":["...",...],"ahora":["...",...],"pie":"reservadeportes.com"} -->
+<link rel="stylesheet" href="comun.css">
+<style>
+html,body{width:1080px;height:1350px}
+body{background:var(--tint);padding:60px 60px 0}
+.cab{display:flex;align-items:center;justify-content:space-between}
+.cab .logo img{height:120px}
+h1{font-size:96px;margin-top:40px}
+.etq{margin-top:40px}
+.tabla{margin-top:44px;display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.col{border-radius:28px;padding:30px 26px 18px}
+.antes{background:#E6ECF1}
+.ahora{background:var(--navy);box-shadow:0 30px 70px -30px rgba(7,48,78,.6)}
+.col h2{font-family:'Archivo';font-weight:900;font-size:44px;letter-spacing:-.02em;margin-bottom:14px}
+.antes h2{color:#7A8D9C}
+.ahora h2{color:var(--orange)}
+.fila{display:flex;gap:18px;align-items:flex-start;padding:20px 0;border-top:2px solid rgba(0,0,0,.07);font-size:35px;line-height:1.18;font-weight:600;height:152px;align-items:center}
+.ahora .fila{border-top-color:rgba(255,255,255,.12);color:#fff}
+.antes .fila{color:#55697A}
+.ic{flex:0 0 46px;height:46px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-top:0}
+.antes .ic{background:#C9D4DD}
+.ahora .ic{background:var(--orange)}
+.ic svg{width:26px;height:26px;stroke:#fff;stroke-width:3.4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.pie{position:absolute;left:60px;right:60px;bottom:52px;display:flex;justify-content:space-between;align-items:center;font-family:'Archivo';font-weight:800;font-size:38px;color:var(--navy)}
+.pie .cta{padding:14px 32px 12px;border-radius:999px;background:var(--orange);color:#fff}
+</style></head>
+<body>
+<div class="cab"><span class="logo"><img src="logo.svg" alt="ReservaDeportes"></span><span class="etq" id="etq"></span></div>
+<h1 id="titulo"></h1>
+<div class="tabla"><div class="col antes" id="antes"><h2>Antes</h2></div><div class="col ahora" id="ahora"><h2>Ahora</h2></div></div>
+<div class="pie"><span id="frase"></span><span class="cta" id="pie">reservadeportes.com</span></div>
+<div class="franja"></div>
+<script>
+function esc(s) { return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;'); }
+function ma(s) { return esc(s).replace(/\*([^*]+)\*/g, '<span class="o">$1</span>'); }
+var X = '<svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>', V = '<svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 7"/></svg>';
+window.pinta = function (d) {
+  var $ = function (i) { return document.getElementById(i); };
+  $('titulo').innerHTML = ma(d.titulo); if (d.etiqueta) $('etq').textContent = d.etiqueta; else $('etq').remove();
+  if (d.pie) $('pie').textContent = d.pie; $('frase').innerHTML = ma(d.frase || '');
+  d.antes.forEach(function (t) { $('antes').insertAdjacentHTML('beforeend', '<div class="fila"><span class="ic">' + X + '</span><span>' + ma(t) + '</span></div>'); });
+  d.ahora.forEach(function (t) { $('ahora').insertAdjacentHTML('beforeend', '<div class="fila"><span class="ic">' + V + '</span><span>' + ma(t) + '</span></div>'); });
+};
+</script>
+</body></html>

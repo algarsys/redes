@@ -1,0 +1,7 @@
+El vecino reserva. El ayuntamiento lo ve al momento.
+
+Un vecino reserva pádel desde el móvil, añade la luz y paga. En ese mismo instante la reserva entra en el panel del ayuntamiento, y se actualizan las reservas del día, los ingresos y la ocupación.
+
+Es la demo interactiva de nuestra web: pruébala tú, sin registrarte, en reservadeportes.com, apartado Demo interactiva (enlace en el perfil). Nombres y precios de ejemplo: cada ayuntamiento pone sus tarifas.
+
+#ayuntamientos #deportemunicipal #polideportivo #reservasonline #gestiondeportiva #instalacionesdeportivas #padel #concejaliadedeportes

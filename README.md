@@ -51,3 +51,11 @@ final la escena fija de "Síguenos" (plantilla-reel-clase.html con "final"). La 
 herramientas/reel-escenas.py:
 
     python3 herramientas/reel-escenas.py receta.json reel.mp4
+
+## Reel de ReservaDeportes con la demo interactiva de la web
+
+    node herramientas/graba-demo-reservadeportes.js /tmp/vdemo     # graba el paso 1 de /demo-interactiva/ (móvil + panel)
+    node herramientas/foto.js marcas/reservadeportes/plantilla-reel-demo.html a.png 1080 1920 '{"gancho":"...","linea":"...","cta":"reservadeportes.com"}'
+
+Con ffmpeg: recorte del panel crop=730:520:486:176 escalado a 1000x712 en 40:500, y del móvil crop=306:626:147:138 en
+60:1236 (los tiempos de cada toque quedan en demo.json). Ejemplo: publicaciones/2026-12-02-reservadeportes-reel-demo-panel.
