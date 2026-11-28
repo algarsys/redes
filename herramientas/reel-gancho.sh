@@ -13,4 +13,6 @@ ffmpeg -v error -y -loop 1 -framerate 30 -i "$F1" -i "$V" -loop 1 -framerate 30 
   -filter_complex "[1:v]split[x][y];[x]trim=$A:$B,setpts=(PTS-STARTPTS)/${VEL},${R}scale=${ESCALA}:flags=lanczos,fps=30[s1];[y]trim=$B:$C,setpts=PTS-STARTPTS,${R}scale=${ESCALA}:flags=lanczos,fps=30[s2];[s1][s2]concat=n=2:v=1:a=0,tpad=stop_mode=clone:stop_duration=${PARADA}[p];[0:v][2:v]overlay=0:0:enable='gte(t,${D1})'[bg];[bg][p]overlay=${POS}:eof_action=pass,format=yuv420p,fade=t=out:st=$(python3 -c "print($D-0.3)"):d=0.3[v]" \
   -map "[v]" -an -c:v libx264 -preset slow -crf 19 -profile:v high -movflags +faststart -r 30 -t "$D" "${O%.mp4}.tmp.mp4"
 mv "${O%.mp4}.tmp.mp4" "$O"
+# todo dentro de la zona segura (los móviles altos recortan los lados): ver encoge-reel.sh
+bash "$(dirname "$0")/encoge-reel.sh" "$O" "$O"
 echo "$O: $D s (rápido $D1 s a x$VEL)"

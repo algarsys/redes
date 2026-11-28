@@ -59,6 +59,8 @@ def main(receta, salida):
     t = salida[:-4] + ".tmp.mp4"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lista, "-c", "copy", "-movflags", "+faststart", t], check=True)
     os.replace(t, salida)
+    # todo dentro de la zona segura (los móviles altos recortan los lados): ver encoge-reel.sh
+    subprocess.run(["bash", os.path.join(os.path.dirname(os.path.abspath(__file__)), "encoge-reel.sh"), salida, salida], check=True)
     print("%s: %.2f s" % (salida, total))
 
 if __name__ == "__main__":

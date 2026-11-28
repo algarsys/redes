@@ -59,3 +59,11 @@ herramientas/reel-escenas.py:
 
 Con ffmpeg: recorte del panel crop=730:520:486:176 escalado a 1000x712 en 40:500, y del móvil crop=306:626:147:138 en
 60:1236 (los tiempos de cada toque quedan en demo.json). Ejemplo: publicaciones/2026-12-02-reservadeportes-reel-demo-panel.
+
+## Zona segura de los reels (obligatorio)
+
+En los móviles altos, Instagram y sobre todo Facebook rellenan la pantalla con el vídeo 9:16 y recortan unos 100 px
+de cada lado: lo que llega al borde (logo, títulos, el marco de la partida) sale cortado. Todo reel termina con
+herramientas/encoge-reel.sh, que encoge el fotograma al 80 % (860 px de ancho, centrado) y rellena con el color de
+fondo. reel-gancho.sh y reel-escenas.py ya lo hacen solos; un reel montado a mano tiene que pasar por él antes de
+publicarse. La portada (portada.jpg) igual: 860 px de ancho centrados sobre el color de fondo.
